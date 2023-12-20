@@ -1,0 +1,9 @@
+<map id="TMP_DOTweenTemplate.Core.Main.Pro.TMP_CharFadeAnimation" name="TMP_DOTweenTemplate.Core.Main.Pro.TMP_CharFadeAnimation">
+<area shape="rect" id="Node000001" title="透過度のアニメーション" alt="" coords="23,452,245,592"/>
+<area shape="rect" id="Node000002" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_char_animation_base.html" title="Charアニメーションのベースクラス AnimationBaseを継承" alt="" coords="67,179,201,404"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="137,419,137,452,131,452,131,419"/>
+<area shape="rect" id="Node000003" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_animation_base.html" title="アニメーションのベースクラス" alt="" coords="5,5,132,131"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="94,144,104,178,99,180,88,146"/>
+<area shape="rect" id="Node000004" href="$class_i_disposable.html" title=" " alt="" coords="156,35,243,101"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="188,116,169,180,164,178,183,114"/>
+</map>

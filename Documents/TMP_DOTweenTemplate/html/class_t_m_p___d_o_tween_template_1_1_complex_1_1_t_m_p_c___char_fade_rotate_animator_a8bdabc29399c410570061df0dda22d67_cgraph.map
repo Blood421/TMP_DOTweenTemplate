@@ -1,0 +1,9 @@
+<map id="TMP_DOTweenTemplate.Complex.TMPC_CharFadeRotateAnimator.OnDestroy" name="TMP_DOTweenTemplate.Complex.TMPC_CharFadeRotateAnimator.OnDestroy">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,53,288,94"/>
+<area shape="rect" id="Node000002" href="$class_t_m_p___d_o_tween_template_1_1_complex_1_1_t_m_p_c___char_fade_rotate_animator.html#a570f7b61424b0190e182b0e18436edf4" title=" " alt="" coords="336,53,605,94"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="288,71,320,71,320,76,288,76"/>
+<area shape="rect" id="Node000003" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_main_1_1_pro_1_1_t_m_p___char_fade_animation.html#a7263f691fab14380d1d68854adc6b22c" title=" " alt="" coords="657,5,891,61"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="605,53,641,48,642,53,606,58"/>
+<area shape="rect" id="Node000004" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_main_1_1_pro_1_1_t_m_p___char_rotate_animation.html#a3f9e4f89798624c0bd32b67b58086620" title=" " alt="" coords="653,85,895,141"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="606,88,638,93,637,98,605,94"/>
+</map>

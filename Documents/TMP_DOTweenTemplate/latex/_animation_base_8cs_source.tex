@@ -1,0 +1,46 @@
+\doxysection{Animation\+Base.\+cs}
+\hypertarget{_animation_base_8cs_source}{}\label{_animation_base_8cs_source}\index{D:/git/TMP\_DOTweenTemplate/DOTweenTemplate/Assets/TMP\_DOTweenTemplate/Scripts/Core/Base/AnimationBase.cs@{D:/git/TMP\_DOTweenTemplate/DOTweenTemplate/Assets/TMP\_DOTweenTemplate/Scripts/Core/Base/AnimationBase.cs}}
+\mbox{\hyperlink{_animation_base_8cs}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_animation_base_8cs_source_l00001}00001\ \textcolor{keyword}{using\ }System;}
+\DoxyCodeLine{\Hypertarget{_animation_base_8cs_source_l00002}00002\ \textcolor{keyword}{using\ }DG.Tweening;}
+\DoxyCodeLine{\Hypertarget{_animation_base_8cs_source_l00003}00003\ \textcolor{keyword}{using\ }UnityEngine;}
+\DoxyCodeLine{\Hypertarget{_animation_base_8cs_source_l00004}00004\ }
+\DoxyCodeLine{\Hypertarget{_animation_base_8cs_source_l00005}\mbox{\hyperlink{namespace_t_m_p___d_o_tween_template_1_1_core}{00005}}\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespace_t_m_p___d_o_tween_template_1_1_core_1_1_base}{TMP\_DOTweenTemplate.Core.Base}}}
+\DoxyCodeLine{\Hypertarget{_animation_base_8cs_source_l00006}00006\ \{}
+\DoxyCodeLine{\Hypertarget{_animation_base_8cs_source_l00010}00010\ \ \ \ \ [Serializable]}
+\DoxyCodeLine{\Hypertarget{_animation_base_8cs_source_l00011}\mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_animation_base}{00011}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{abstract}\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_animation_base}{AnimationBase}}}
+\DoxyCodeLine{\Hypertarget{_animation_base_8cs_source_l00012}00012\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_animation_base_8cs_source_l00016}00016\ \ \ \ \ \ \ \ \ [Serializable]}
+\DoxyCodeLine{\Hypertarget{_animation_base_8cs_source_l00017}\mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_animation_base_1_1_additional}{00017}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_animation_base_1_1_additional}{Additional}}}
+\DoxyCodeLine{\Hypertarget{_animation_base_8cs_source_l00018}00018\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_animation_base_8cs_source_l00022}\mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_animation_base_1_1_additional_a7151ad4d0260400b4cb6e05f8bee02bf}{00022}}\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ AnimationCurve\ \mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_animation_base_1_1_additional_a7151ad4d0260400b4cb6e05f8bee02bf}{curveEase}};}
+\DoxyCodeLine{\Hypertarget{_animation_base_8cs_source_l00023}00023\ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{_animation_base_8cs_source_l00027}\mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_animation_base_1_1_additional_ac4bde23f96919c64f849b6cb0d750caf}{00027}}\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_animation_base_1_1_additional_ac4bde23f96919c64f849b6cb0d750caf}{useCurveEase}};}
+\DoxyCodeLine{\Hypertarget{_animation_base_8cs_source_l00028}00028\ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{_animation_base_8cs_source_l00032}\mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_animation_base_1_1_additional_ae15a07f56b006ca4002a33676c8d49a7}{00032}}\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_animation_base_1_1_additional_ae15a07f56b006ca4002a33676c8d49a7}{delay}};}
+\DoxyCodeLine{\Hypertarget{_animation_base_8cs_source_l00033}00033\ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{_animation_base_8cs_source_l00037}\mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_animation_base_1_1_additional_aceab8408209e9fda36ff3a1287b069b3}{00037}}\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_animation_base_1_1_additional_aceab8408209e9fda36ff3a1287b069b3}{loop}};}
+\DoxyCodeLine{\Hypertarget{_animation_base_8cs_source_l00038}00038\ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{_animation_base_8cs_source_l00042}\mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_animation_base_1_1_additional_a3d934cc7511976fe6c88572d1adfd6b1}{00042}}\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ LoopType\ \mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_animation_base_1_1_additional_a3d934cc7511976fe6c88572d1adfd6b1}{loopType}};}
+\DoxyCodeLine{\Hypertarget{_animation_base_8cs_source_l00043}00043\ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{_animation_base_8cs_source_l00047}\mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_animation_base_1_1_additional_a418f0f705a3e3fe9a70fd7790a7e18cd}{00047}}\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_animation_base_1_1_additional_a418f0f705a3e3fe9a70fd7790a7e18cd}{isRelative}};}
+\DoxyCodeLine{\Hypertarget{_animation_base_8cs_source_l00048}00048\ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{_animation_base_8cs_source_l00052}\mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_animation_base_1_1_additional_acb08ca99e76d13671edb3ab4a691a6e8}{00052}}\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_animation_base_1_1_additional_acb08ca99e76d13671edb3ab4a691a6e8}{isFrom}};}
+\DoxyCodeLine{\Hypertarget{_animation_base_8cs_source_l00053}00053\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_animation_base_8cs_source_l00054}00054\ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{_animation_base_8cs_source_l00058}\mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_animation_base_a9b439353097cb07202571e5b5caa83f4}{00058}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_animation_base_1_1_additional}{Additional}}\ \mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_animation_base_a9b439353097cb07202571e5b5caa83f4}{additional}};}
+\DoxyCodeLine{\Hypertarget{_animation_base_8cs_source_l00059}00059\ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{_animation_base_8cs_source_l00063}\mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_animation_base_a765f9b976b8f5e69ea13ec6620362125}{00063}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_animation_base_a765f9b976b8f5e69ea13ec6620362125}{duration}};}
+\DoxyCodeLine{\Hypertarget{_animation_base_8cs_source_l00064}00064\ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{_animation_base_8cs_source_l00068}\mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_animation_base_a8e67446ae1ebecff71d8bd478627e927}{00068}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ Ease\ \mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_animation_base_a8e67446ae1ebecff71d8bd478627e927}{ease}};}
+\DoxyCodeLine{\Hypertarget{_animation_base_8cs_source_l00069}00069\ }
+\DoxyCodeLine{\Hypertarget{_animation_base_8cs_source_l00074}\mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_animation_base_ad859f134e0f8d1e8e5c00ae0b120ebcb}{00074}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{abstract}\ Sequence\ \mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_animation_base_ad859f134e0f8d1e8e5c00ae0b120ebcb}{GetSequence}}();}
+\DoxyCodeLine{\Hypertarget{_animation_base_8cs_source_l00075}00075\ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{_animation_base_8cs_source_l00080}\mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_animation_base_a5cfb905cae06ea6fc613f3012123dff8}{00080}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{protected}\ \textcolor{keyword}{abstract}\ Sequence\ \mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_animation_base_a5cfb905cae06ea6fc613f3012123dff8}{CreateSequence}}();}
+\DoxyCodeLine{\Hypertarget{_animation_base_8cs_source_l00081}00081\ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{_animation_base_8cs_source_l00082}00082\ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{_animation_base_8cs_source_l00083}00083\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_animation_base_8cs_source_l00084}00084\ \}}
+
+\end{DoxyCode}

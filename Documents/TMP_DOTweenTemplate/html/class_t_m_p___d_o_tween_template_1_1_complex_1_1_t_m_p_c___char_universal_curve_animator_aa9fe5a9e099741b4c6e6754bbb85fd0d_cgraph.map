@@ -1,0 +1,13 @@
+<map id="TMP_DOTweenTemplate.Complex.TMPC_CharUniversalCurveAnimator.OnDestroy" name="TMP_DOTweenTemplate.Complex.TMPC_CharUniversalCurveAnimator.OnDestroy">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,125,249,181"/>
+<area shape="rect" id="Node000002" href="$class_t_m_p___d_o_tween_template_1_1_complex_1_1_t_m_p_c___char_universal_curve_animator.html#a8a80eed98e1be3b652544e4cdc46046c" title=" " alt="" coords="297,125,540,181"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="249,151,281,151,281,156,249,156"/>
+<area shape="rect" id="Node000003" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_main_1_1_pro_1_1_t_m_p___char_color_gradient_animation.html#a5ba0affd5436eba77040686ca2de773b" title=" " alt="" coords="615,5,839,61"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="473,122,587,71,606,64,608,69,589,76,475,127"/>
+<area shape="rect" id="Node000004" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_main_1_1_pro_1_1_t_m_p___char_move_curve_animation.html#a22b5ab631620d7e0742b77111b0a7a02" title=" " alt="" coords="591,85,862,141"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="540,135,575,130,576,135,541,140"/>
+<area shape="rect" id="Node000005" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_main_1_1_pro_1_1_t_m_p___char_rotate_curve_animation.html#a45db27da2247d613da9ab6576da06431" title=" " alt="" coords="588,165,865,221"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="541,166,573,171,572,176,540,172"/>
+<area shape="rect" id="Node000006" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_main_1_1_pro_1_1_t_m_p___char_scale_curve_animation.html#afda181db9ac7f303d95a072c2e837d09" title=" " alt="" coords="590,245,863,301"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="475,179,589,231,608,238,606,243,587,236,473,184"/>
+</map>

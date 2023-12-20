@@ -1,0 +1,208 @@
+\doxysection{TMP\+\_\+\+DOTween\+Tag\+Animator.\+Core.\+TMP\+\_\+\+Tag\+Animator\+Manager Class Reference}
+\hypertarget{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_manager}{}\label{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_manager}\index{TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorManager@{TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorManager}}
+
+
+　設定してあるアニメーション設定アセットからタグを判定。その結果からアニメーションデータとその範囲を生成するクラス  
+
+
+
+
+Inheritance diagram for TMP\+\_\+\+DOTween\+Tag\+Animator.\+Core.\+TMP\+\_\+\+Tag\+Animator\+Manager\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=243pt]{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_manager__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for TMP\+\_\+\+DOTween\+Tag\+Animator.\+Core.\+TMP\+\_\+\+Tag\+Animator\+Manager\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_manager__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animation_data}{TMP\+\_\+\+Tag\+Animation\+Data}} $>$ string checked\+Text \mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_manager_ab0136c7e6bea0c8bb2a1c910c37fefbb}{Check\+Tags}} (string check\+Text, bool is\+Rich\+Text\+Tag\+Used)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animation_data}{TMP\+\_\+\+Tag\+Animation\+Data}} $>$ \mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_manager_abde1e690410477c6e33f7f80e4664bc6}{data\+List}}
+\begin{DoxyCompactList}\small\item\em Rich\+Text\+Tagと設定したアニメーション設定のタグを判定 \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_manager}{TMP\+\_\+\+Tag\+Animator\+Manager}} \mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_manager_a70730ad031f5e9a2ba26a792e1226303}{instance}}
+\begin{DoxyCompactList}\small\item\em シングルトン用 \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_manager_a56dd3487cb83be781d0e93294cae3f59}{Awake}} ()
+\item 
+void \mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_manager_a91abf66d01846120594f0831eee51a21}{To\+Singleton}} ()
+\begin{DoxyCompactList}\small\item\em シングルトン化 \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_assets_1_1_t_m_p___animation_settings_base}{TMP\+\_\+\+Animation\+Settings\+Base}}\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_manager_abdde1f8d3cc0c392823fff2dee0f4a9b}{tmp\+Animation\+Settings\+Bases}}
+\begin{DoxyCompactList}\small\item\em ここにアニメーション設定アセットをセット \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_tags_1_1_t_m_p___r_t_t_checker}{TMP\+\_\+\+RTTChecker}} \mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_manager_abaa10dc83caf07b4d316099b2db253eb}{tmp\+RTTChecker}}
+\begin{DoxyCompactList}\small\item\em TMPの\+Rich\+Text\+Tagを判定する用 \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+　設定してあるアニメーション設定アセットからタグを判定。その結果からアニメーションデータとその範囲を生成するクラス 
+
+タグのアニメーションテキストクラスより先に動いてほしいため Default\+Execution\+Order(-\/5) 
+
+Definition at line \mbox{\hyperlink{_t_m_p___tag_animator_manager_8cs_source_l00016}{16}} of file \mbox{\hyperlink{_t_m_p___tag_animator_manager_8cs_source}{TMP\+\_\+\+Tag\+Animator\+Manager.\+cs}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_manager_a56dd3487cb83be781d0e93294cae3f59}\label{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_manager_a56dd3487cb83be781d0e93294cae3f59} 
+\index{TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorManager@{TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorManager}!Awake@{Awake}}
+\index{Awake@{Awake}!TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorManager@{TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorManager}}
+\doxysubsubsection{\texorpdfstring{Awake()}{Awake()}}
+{\footnotesize\ttfamily void TMP\+\_\+\+DOTween\+Tag\+Animator.\+Core.\+TMP\+\_\+\+Tag\+Animator\+Manager.\+Awake (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_t_m_p___tag_animator_manager_8cs_source_l00033}{33}} of file \mbox{\hyperlink{_t_m_p___tag_animator_manager_8cs_source}{TMP\+\_\+\+Tag\+Animator\+Manager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_manager_a56dd3487cb83be781d0e93294cae3f59_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_manager_ab0136c7e6bea0c8bb2a1c910c37fefbb}\label{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_manager_ab0136c7e6bea0c8bb2a1c910c37fefbb} 
+\index{TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorManager@{TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorManager}!CheckTags@{CheckTags}}
+\index{CheckTags@{CheckTags}!TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorManager@{TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorManager}}
+\doxysubsubsection{\texorpdfstring{CheckTags()}{CheckTags()}}
+{\footnotesize\ttfamily List$<$ \mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animation_data}{TMP\+\_\+\+Tag\+Animation\+Data}} $>$ string checked\+Text TMP\+\_\+\+DOTween\+Tag\+Animator.\+Core.\+TMP\+\_\+\+Tag\+Animator\+Manager.\+Check\+Tags (\begin{DoxyParamCaption}\item[{string}]{check\+Text,  }\item[{bool}]{is\+Rich\+Text\+Tag\+Used }\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_t_m_p___tag_animator_manager_8cs_source_l00055}{55}} of file \mbox{\hyperlink{_t_m_p___tag_animator_manager_8cs_source}{TMP\+\_\+\+Tag\+Animator\+Manager.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_manager_ab0136c7e6bea0c8bb2a1c910c37fefbb_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_manager_ab0136c7e6bea0c8bb2a1c910c37fefbb_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_manager_a91abf66d01846120594f0831eee51a21}\label{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_manager_a91abf66d01846120594f0831eee51a21} 
+\index{TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorManager@{TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorManager}!ToSingleton@{ToSingleton}}
+\index{ToSingleton@{ToSingleton}!TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorManager@{TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorManager}}
+\doxysubsubsection{\texorpdfstring{ToSingleton()}{ToSingleton()}}
+{\footnotesize\ttfamily void TMP\+\_\+\+DOTween\+Tag\+Animator.\+Core.\+TMP\+\_\+\+Tag\+Animator\+Manager.\+To\+Singleton (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+シングルトン化 
+
+
+
+Definition at line \mbox{\hyperlink{_t_m_p___tag_animator_manager_8cs_source_l00043}{43}} of file \mbox{\hyperlink{_t_m_p___tag_animator_manager_8cs_source}{TMP\+\_\+\+Tag\+Animator\+Manager.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_manager_a91abf66d01846120594f0831eee51a21_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_manager_abde1e690410477c6e33f7f80e4664bc6}\label{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_manager_abde1e690410477c6e33f7f80e4664bc6} 
+\index{TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorManager@{TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorManager}!dataList@{dataList}}
+\index{dataList@{dataList}!TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorManager@{TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorManager}}
+\doxysubsubsection{\texorpdfstring{dataList}{dataList}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animation_data}{TMP\+\_\+\+Tag\+Animation\+Data}}$>$ TMP\+\_\+\+DOTween\+Tag\+Animator.\+Core.\+TMP\+\_\+\+Tag\+Animator\+Manager.\+data\+List}
+
+
+
+Rich\+Text\+Tagと設定したアニメーション設定のタグを判定 
+
+
+\begin{DoxyParams}{Parameters}
+{\em check\+Text} & 判定する文字列\\
+\hline
+{\em is\+Rich\+Text\+Tag\+Used} & Rich\+Text\+Tagを判定するかどうか\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+結果から生成されたアニメーション設定とその範囲データのリストとアニメーションタグを削除した文字列
+\end{DoxyReturn}
+
+
+Definition at line \mbox{\hyperlink{_t_m_p___tag_animator_manager_8cs_source_l00055}{55}} of file \mbox{\hyperlink{_t_m_p___tag_animator_manager_8cs_source}{TMP\+\_\+\+Tag\+Animator\+Manager.\+cs}}.
+
+\Hypertarget{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_manager_a70730ad031f5e9a2ba26a792e1226303}\label{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_manager_a70730ad031f5e9a2ba26a792e1226303} 
+\index{TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorManager@{TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorManager}!instance@{instance}}
+\index{instance@{instance}!TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorManager@{TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorManager}}
+\doxysubsubsection{\texorpdfstring{instance}{instance}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_manager}{TMP\+\_\+\+Tag\+Animator\+Manager}} TMP\+\_\+\+DOTween\+Tag\+Animator.\+Core.\+TMP\+\_\+\+Tag\+Animator\+Manager.\+instance\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+シングルトン用 
+
+
+
+Definition at line \mbox{\hyperlink{_t_m_p___tag_animator_manager_8cs_source_l00021}{21}} of file \mbox{\hyperlink{_t_m_p___tag_animator_manager_8cs_source}{TMP\+\_\+\+Tag\+Animator\+Manager.\+cs}}.
+
+\Hypertarget{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_manager_abdde1f8d3cc0c392823fff2dee0f4a9b}\label{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_manager_abdde1f8d3cc0c392823fff2dee0f4a9b} 
+\index{TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorManager@{TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorManager}!tmpAnimationSettingsBases@{tmpAnimationSettingsBases}}
+\index{tmpAnimationSettingsBases@{tmpAnimationSettingsBases}!TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorManager@{TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorManager}}
+\doxysubsubsection{\texorpdfstring{tmpAnimationSettingsBases}{tmpAnimationSettingsBases}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_assets_1_1_t_m_p___animation_settings_base}{TMP\+\_\+\+Animation\+Settings\+Base}} \mbox{[}$\,$\mbox{]} TMP\+\_\+\+DOTween\+Tag\+Animator.\+Core.\+TMP\+\_\+\+Tag\+Animator\+Manager.\+tmp\+Animation\+Settings\+Bases\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+ここにアニメーション設定アセットをセット 
+
+
+
+Definition at line \mbox{\hyperlink{_t_m_p___tag_animator_manager_8cs_source_l00026}{26}} of file \mbox{\hyperlink{_t_m_p___tag_animator_manager_8cs_source}{TMP\+\_\+\+Tag\+Animator\+Manager.\+cs}}.
+
+\Hypertarget{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_manager_abaa10dc83caf07b4d316099b2db253eb}\label{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_manager_abaa10dc83caf07b4d316099b2db253eb} 
+\index{TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorManager@{TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorManager}!tmpRTTChecker@{tmpRTTChecker}}
+\index{tmpRTTChecker@{tmpRTTChecker}!TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorManager@{TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorManager}}
+\doxysubsubsection{\texorpdfstring{tmpRTTChecker}{tmpRTTChecker}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_tags_1_1_t_m_p___r_t_t_checker}{TMP\+\_\+\+RTTChecker}} TMP\+\_\+\+DOTween\+Tag\+Animator.\+Core.\+TMP\+\_\+\+Tag\+Animator\+Manager.\+tmp\+RTTChecker\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+TMPの\+Rich\+Text\+Tagを判定する用 
+
+
+
+Definition at line \mbox{\hyperlink{_t_m_p___tag_animator_manager_8cs_source_l00031}{31}} of file \mbox{\hyperlink{_t_m_p___tag_animator_manager_8cs_source}{TMP\+\_\+\+Tag\+Animator\+Manager.\+cs}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/git/\+TMP\+\_\+\+DOTween\+Template/\+DOTween\+Template/\+Assets/\+TMP\+\_\+\+DOTween\+Tag\+Animator/\+Scripts/\+Core/\mbox{\hyperlink{_t_m_p___tag_animator_manager_8cs}{TMP\+\_\+\+Tag\+Animator\+Manager.\+cs}}\end{DoxyCompactItemize}

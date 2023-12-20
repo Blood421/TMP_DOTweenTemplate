@@ -1,0 +1,24 @@
+<map id="TMP_DOTweenTagAnimator.Core.TMP_TagAnimatorManager" name="TMP_DOTweenTagAnimator.Core.TMP_TagAnimatorManager">
+<area shape="rect" id="Node000001" title="　設定してあるアニメーション設定アセットからタグを判定。その結果からアニメーションデータとその範囲を生成するクラス" alt="" coords="378,529,595,649"/>
+<area shape="rect" id="Node000002" href="$class_mono_behaviour.html" title=" " alt="" coords="318,191,423,256"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="362,271,355,313,351,363,354,415,368,465,387,499,412,528,408,531,382,502,363,467,349,416,346,363,349,313,356,270"/>
+<area shape="rect" id="Node000003" href="$class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_manager.html" title="　設定してあるアニメーション設定アセットからタグを判定。その結果からアニメーションデータとその範囲を生成するクラス" alt="" coords="378,346,595,466"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="401,267,451,345,447,348,396,269"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="489,466,489,513,484,513,484,466"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="596,389,614,395,622,406,613,418,609,415,617,406,611,399,594,394"/>
+<area shape="rect" id="Node000004" href="$class_t_m_p___d_o_tween_tag_animator_1_1_assets_1_1_t_m_p___animation_settings_base.html" title="タグとそのアニメーション設定のアセット用のベースクラス" alt="" coords="5,163,235,283"/>
+<area shape="poly" id="edge11_Node000001_Node000004" title=" " alt="" coords="118,283,120,327,127,375,142,423,167,465,208,503,257,532,310,553,362,568,361,573,308,559,255,537,205,507,163,468,137,425,121,376,114,327,113,283"/>
+<area shape="poly" id="edge5_Node000003_Node000004" title=" " alt="" coords="185,281,242,320,301,348,363,370,361,375,299,353,240,325,182,285"/>
+<area shape="rect" id="Node000005" href="$class_scriptable_object.html" title=" " alt="" coords="125,13,237,78"/>
+<area shape="poly" id="edge6_Node000004_Node000005" title=" " alt="" coords="177,93,165,140,155,165,150,163,160,138,172,92"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="36,13,81,78"/>
+<area shape="poly" id="edge7_Node000004_Node000006" title=" " alt="" coords="55,78,53,108,58,139,61,147,56,149,53,140,48,108,49,78"/>
+<area shape="rect" id="Node000007" href="$class_t_m_p___d_o_tween_tag_animator_1_1_tags_1_1_t_m_p___r_t_t_checker.html" title="Rich Text Tag を判定するクラス" alt="" coords="723,173,943,273"/>
+<area shape="poly" id="edge12_Node000001_Node000007" title=" " alt="" coords="836,273,831,318,821,370,803,422,774,468,739,501,699,528,656,549,612,565,611,560,654,544,696,523,736,497,770,465,798,419,816,368,826,317,830,273"/>
+<area shape="poly" id="edge8_Node000003_Node000007" title=" " alt="" coords="741,276,611,343,609,339,739,271"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="761,5,906,85"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="836,85,836,156,831,156,831,85"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="480,183,699,263"/>
+<area shape="poly" id="edge13_Node000001_Node000009" title=" " alt="" coords="636,261,669,299,694,345,706,379,711,408,708,436,694,468,678,491,658,511,612,544,609,540,655,507,674,488,690,465,703,434,706,408,701,380,690,347,665,303,632,265"/>
+<area shape="poly" id="edge10_Node000003_Node000009" title=" " alt="" coords="570,264,531,333,526,330,565,262"/>
+</map>

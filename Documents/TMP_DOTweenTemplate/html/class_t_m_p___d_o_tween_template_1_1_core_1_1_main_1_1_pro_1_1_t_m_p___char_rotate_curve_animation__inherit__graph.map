@@ -1,0 +1,9 @@
+<map id="TMP_DOTweenTemplate.Core.Main.Pro.TMP_CharRotateCurveAnimation" name="TMP_DOTweenTemplate.Core.Main.Pro.TMP_CharRotateCurveAnimation">
+<area shape="rect" id="Node000001" title="文字ごとの回転のアニメーション" alt="" coords="5,452,271,592"/>
+<area shape="rect" id="Node000002" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_char_animation_base.html" title="Charアニメーションのベースクラス AnimationBaseを継承" alt="" coords="71,179,205,404"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="141,419,141,452,135,452,135,419"/>
+<area shape="rect" id="Node000003" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_animation_base.html" title="アニメーションのベースクラス" alt="" coords="9,5,136,131"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="98,144,108,178,103,180,92,146"/>
+<area shape="rect" id="Node000004" href="$class_i_disposable.html" title=" " alt="" coords="160,35,247,101"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="192,116,173,180,168,178,187,114"/>
+</map>

@@ -1,0 +1,47 @@
+<map id="TMP_DOTweenTemplate.Simple.Pro.TMP_CharFadeAnimator" name="TMP_DOTweenTemplate.Simple.Pro.TMP_CharFadeAnimator">
+<area shape="rect" id="Node000001" title="透過度のアニメーター" alt="" coords="403,981,616,1121"/>
+<area shape="rect" id="Node000002" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_animator_base.html" title="アニメーションを実行するアニメーターのベースクラス" alt="" coords="303,795,401,901"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="404,911,458,980,454,983,399,914"/>
+<area shape="rect" id="Node000003" href="$class_mono_behaviour.html" title=" " alt="" coords="51,582,157,648"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="130,659,149,687,171,713,204,743,239,771,305,816,302,821,235,776,200,747,167,717,145,690,126,661"/>
+<area shape="rect" id="Node000004" href="$class_i_disposable.html" title=" " alt="" coords="339,377,426,442"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="395,456,404,516,411,591,411,673,400,755,385,797,379,795,395,753,406,673,406,591,399,517,390,457"/>
+<area shape="rect" id="Node000005" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_main_1_1_sequence_animation.html" title="シーケンスアニメーション管理クラス" alt="" coords="181,515,379,715"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="378,457,366,492,354,516,350,514,362,490,373,456"/>
+<area shape="rect" id="Node000011" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_char_animation_base.html" title="Charアニメーションのベースクラス AnimationBaseを継承" alt="" coords="592,522,725,708"/>
+<area shape="poly" id="edge21_Node000011_Node000004" title=" " alt="" coords="438,449,439,450,594,563,591,568,436,454,435,453"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="290,714,300,753,311,779,306,781,295,755,285,716"/>
+<area shape="rect" id="Node000006" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_sequence_event.html" title="シーケンスのイベントをまとめたクラス" alt="" coords="5,369,203,449"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="130,448,161,489,172,503,168,506,157,493,126,451"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="66,171,142,236"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="107,236,107,352,101,352,101,236"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="227,377,298,442"/>
+<area shape="poly" id="edge8_Node000005_Node000008" title=" " alt="" coords="265,442,267,491,267,498,262,498,261,491,260,442"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="450,377,571,442"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="513,442,512,964,507,964,508,442"/>
+<area shape="poly" id="edge23_Node000011_Node000009" title=" " alt="" coords="536,440,584,507,580,510,531,444"/>
+<area shape="rect" id="Node000010" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_main_1_1_pro_1_1_t_m_p___char_fade_animation.html" title="透過度のアニメーション" alt="" coords="547,778,770,918"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="610,919,573,969,568,966,606,916"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="661,722,661,778,656,778,656,722"/>
+<area shape="rect" id="Node000012" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_animation_base.html" title="アニメーションのベースクラス" alt="" coords="595,367,722,452"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="661,467,661,522,656,522,656,467"/>
+<area shape="rect" id="Node000013" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_animation_base_1_1_additional.html" title="追加設定クラス" alt="" coords="270,164,474,244"/>
+<area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="402,242,447,293,475,319,505,340,523,349,540,354,580,364,579,369,538,359,522,354,503,345,472,323,443,297,398,245"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="388,5,497,71"/>
+<area shape="poly" id="edge14_Node000013_Node000014" title=" " alt="" coords="432,71,398,149,393,147,427,69"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="113,5,151,71"/>
+<area shape="poly" id="edge15_Node000013_Node000015" title=" " alt="" coords="137,70,146,106,154,123,165,138,185,154,207,167,255,185,253,190,204,172,182,158,161,142,149,126,140,107,132,71"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="659,5,696,71"/>
+<area shape="poly" id="edge25_Node000010_Node000016" title=" " alt="" coords="696,37,772,45,823,54,874,68,923,89,964,117,980,135,992,155,1000,177,1003,202,1003,617,997,655,983,690,960,720,931,746,898,769,861,789,787,818,785,814,859,784,895,765,928,742,956,716,978,687,992,654,997,616,997,202,995,178,987,157,976,138,960,121,920,94,873,73,821,59,772,50,695,43"/>
+<area shape="poly" id="edge22_Node000011_Node000016" title=" " alt="" coords="698,69,719,113,736,163,751,244,756,308,751,372,736,453,718,508,713,506,731,451,746,371,751,308,746,244,731,164,714,115,693,71"/>
+<area shape="poly" id="edge19_Node000012_Node000016" title=" " alt="" coords="661,64,632,109,619,136,609,164,603,213,607,262,619,309,634,350,629,352,614,311,602,263,598,213,604,163,614,134,628,107,657,61"/>
+<area shape="poly" id="edge16_Node000013_Node000016" title=" " alt="" coords="660,45,600,62,565,77,533,97,522,107,516,118,510,130,499,142,478,157,475,153,496,138,506,126,512,116,518,104,529,93,563,72,598,57,658,40"/>
+<area shape="rect" id="Node000017" title=" " alt="" coords="241,5,268,71"/>
+<area shape="poly" id="edge17_Node000013_Node000017" title=" " alt="" coords="260,70,268,105,284,138,294,150,290,154,279,141,263,106,255,71"/>
+<area shape="rect" id="Node000018" title=" " alt="" coords="293,5,363,71"/>
+<area shape="poly" id="edge18_Node000013_Node000018" title=" " alt="" coords="327,70,327,104,333,139,336,148,331,150,327,140,321,104,322,70"/>
+<area shape="rect" id="Node000019" title=" " alt="" coords="678,171,722,236"/>
+<area shape="poly" id="edge20_Node000012_Node000019" title=" " alt="" coords="696,237,673,351,668,350,691,236"/>
+<area shape="rect" id="Node000020" title=" " alt="" coords="798,377,951,442"/>
+<area shape="poly" id="edge24_Node000011_Node000020" title=" " alt="" coords="843,444,739,541,736,538,840,440"/>
+</map>

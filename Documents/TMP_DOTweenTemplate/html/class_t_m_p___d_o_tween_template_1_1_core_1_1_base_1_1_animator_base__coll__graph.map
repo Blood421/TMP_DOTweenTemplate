@@ -1,0 +1,16 @@
+<map id="TMP_DOTweenTemplate.Core.Base.AnimatorBase" name="TMP_DOTweenTemplate.Core.Base.AnimatorBase">
+<area shape="rect" id="Node000001" title="アニメーションを実行するアニメーターのベースクラス" alt="" coords="50,600,247,720"/>
+<area shape="rect" id="Node000002" href="$class_mono_behaviour.html" title=" " alt="" coords="5,404,111,469"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="79,482,127,599,122,601,74,484"/>
+<area shape="rect" id="Node000003" href="$class_i_disposable.html" title=" " alt="" coords="97,201,184,266"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="144,281,150,600,145,600,139,281"/>
+<area shape="rect" id="Node000004" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_main_1_1_sequence_animation.html" title="シーケンスアニメーション管理クラス" alt="" coords="190,337,387,537"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="175,277,218,335,214,339,171,280"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="228,538,197,587,193,584,224,535"/>
+<area shape="rect" id="Node000005" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_sequence_event.html" title="シーケンスのイベントをまとめたクラス" alt="" coords="209,194,406,274"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="306,274,302,320,297,320,301,273"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="269,5,345,71"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="310,70,310,177,305,177,305,70"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="431,201,501,266"/>
+<area shape="poly" id="edge7_Node000004_Node000007" title=" " alt="" coords="446,268,409,314,399,326,395,322,405,311,442,265"/>
+</map>

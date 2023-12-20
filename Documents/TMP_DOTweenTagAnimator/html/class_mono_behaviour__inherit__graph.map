@@ -1,0 +1,7 @@
+<map id="MonoBehaviour" name="MonoBehaviour">
+<area shape="rect" id="Node000001" title=" " alt="" coords="181,5,287,71"/>
+<area shape="rect" id="Node000002" href="$class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_manager.html" title="　設定してあるアニメーション設定アセットからタグを判定。その結果からアニメーションデータとその範囲を生成するクラス" alt="" coords="5,139,223,319"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="208,85,173,140,168,138,204,82"/>
+<area shape="rect" id="Node000003" href="$class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text.html" title="タグアニメーション用のテキストクラス" alt="" coords="247,119,464,339"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="264,82,288,118,283,120,260,85"/>
+</map>

@@ -1,0 +1,25 @@
+<map id="TMP_DOTweenTemplate.Demo.DemoAnimationGallery" name="TMP_DOTweenTemplate.Demo.DemoAnimationGallery">
+<area shape="rect" id="Node000001" title="デモ用アニメーション一覧" alt="" coords="235,783,441,923"/>
+<area shape="rect" id="Node000002" href="$class_mono_behaviour.html" title=" " alt="" coords="5,404,111,469"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="47,484,37,536,33,597,39,660,49,690,63,718,97,758,141,789,189,812,236,829,235,834,187,817,138,794,94,762,58,721,44,692,34,661,27,597,32,535,42,483"/>
+<area shape="rect" id="Node000005" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_animator_base.html" title="アニメーションを実行するアニメーターのベースクラス" alt="" coords="73,600,270,720"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="83,482,144,599,139,601,79,484"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="295,627,384,692"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="342,692,341,766,336,766,336,692"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="408,627,529,692"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="466,693,457,726,442,760,434,771,430,768,437,757,452,725,461,692"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="225,718,269,768,265,772,221,721"/>
+<area shape="rect" id="Node000006" href="$class_i_disposable.html" title=" " alt="" coords="97,201,184,266"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="147,281,170,600,164,600,141,281"/>
+<area shape="rect" id="Node000007" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_main_1_1_sequence_animation.html" title="シーケンスアニメーション管理クラス" alt="" coords="190,337,387,537"/>
+<area shape="poly" id="edge8_Node000007_Node000006" title=" " alt="" coords="175,277,218,335,214,339,171,280"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="239,538,213,586,208,584,234,535"/>
+<area shape="rect" id="Node000008" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_sequence_event.html" title="シーケンスのイベントをまとめたクラス" alt="" coords="209,194,406,274"/>
+<area shape="poly" id="edge9_Node000007_Node000008" title=" " alt="" coords="306,274,302,320,297,320,301,273"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="269,5,345,71"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="310,70,310,177,305,177,305,70"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="431,201,501,266"/>
+<area shape="poly" id="edge11_Node000007_Node000010" title=" " alt="" coords="445,268,408,314,398,326,394,322,404,311,441,265"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="554,627,581,692"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="560,693,545,728,520,761,490,784,457,805,454,800,487,780,516,757,540,725,556,691"/>
+</map>

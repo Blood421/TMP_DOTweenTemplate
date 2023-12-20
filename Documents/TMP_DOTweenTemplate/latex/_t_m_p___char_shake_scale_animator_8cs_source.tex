@@ -1,0 +1,49 @@
+\doxysection{TMP\+\_\+\+Char\+Shake\+Scale\+Animator.\+cs}
+\hypertarget{_t_m_p___char_shake_scale_animator_8cs_source}{}\label{_t_m_p___char_shake_scale_animator_8cs_source}\index{D:/git/TMP\_DOTweenTemplate/DOTweenTemplate/Assets/TMP\_DOTweenTemplate/Scripts/Simple/Pro/TMP\_CharShakeScaleAnimator.cs@{D:/git/TMP\_DOTweenTemplate/DOTweenTemplate/Assets/TMP\_DOTweenTemplate/Scripts/Simple/Pro/TMP\_CharShakeScaleAnimator.cs}}
+\mbox{\hyperlink{_t_m_p___char_shake_scale_animator_8cs}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_t_m_p___char_shake_scale_animator_8cs_source_l00001}00001\ \textcolor{keyword}{using\ }DG.Tweening;}
+\DoxyCodeLine{\Hypertarget{_t_m_p___char_shake_scale_animator_8cs_source_l00002}00002\ \textcolor{keyword}{using\ }\mbox{\hyperlink{namespace_t_m_p___d_o_tween_template_1_1_core_1_1_base}{TMP\_DOTweenTemplate.Core.Base}};}
+\DoxyCodeLine{\Hypertarget{_t_m_p___char_shake_scale_animator_8cs_source_l00003}00003\ \textcolor{keyword}{using\ }\mbox{\hyperlink{namespace_t_m_p___d_o_tween_template_1_1_core_1_1_main_1_1_pro}{TMP\_DOTweenTemplate.Core.Main.Pro}};}
+\DoxyCodeLine{\Hypertarget{_t_m_p___char_shake_scale_animator_8cs_source_l00004}00004\ \textcolor{keyword}{using\ }TMPro;}
+\DoxyCodeLine{\Hypertarget{_t_m_p___char_shake_scale_animator_8cs_source_l00005}00005\ \textcolor{keyword}{using\ }UnityEngine;}
+\DoxyCodeLine{\Hypertarget{_t_m_p___char_shake_scale_animator_8cs_source_l00006}00006\ }
+\DoxyCodeLine{\Hypertarget{_t_m_p___char_shake_scale_animator_8cs_source_l00007}00007\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespace_t_m_p___d_o_tween_template_1_1_simple_1_1_pro}{TMP\_DOTweenTemplate.Simple.Pro}}}
+\DoxyCodeLine{\Hypertarget{_t_m_p___char_shake_scale_animator_8cs_source_l00008}00008\ \{}
+\DoxyCodeLine{\Hypertarget{_t_m_p___char_shake_scale_animator_8cs_source_l00012}\mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_simple_1_1_pro_1_1_t_m_p___char_shake_scale_animator}{00012}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_simple_1_1_pro_1_1_t_m_p___char_shake_scale_animator}{TMP\_CharShakeScaleAnimator}}\ :\ \mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_animator_base}{AnimatorBase}}}
+\DoxyCodeLine{\Hypertarget{_t_m_p___char_shake_scale_animator_8cs_source_l00013}00013\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_t_m_p___char_shake_scale_animator_8cs_source_l00017}00017\ \ \ \ \ \ \ \ \ [Header(\textcolor{stringliteral}{"{}Text"{}})]}
+\DoxyCodeLine{\Hypertarget{_t_m_p___char_shake_scale_animator_8cs_source_l00018}\mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_simple_1_1_pro_1_1_t_m_p___char_shake_scale_animator_af2ebd08d7fa415527d6558516c3fbaa8}{00018}}\ \ \ \ \ \ \ \ \ [SerializeField]\ \textcolor{keyword}{private}\ TextMeshProUGUI\ \mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_simple_1_1_pro_1_1_t_m_p___char_shake_scale_animator_af2ebd08d7fa415527d6558516c3fbaa8}{text}};}
+\DoxyCodeLine{\Hypertarget{_t_m_p___char_shake_scale_animator_8cs_source_l00022}00022\ \ \ \ \ \ \ \ \ [Header(\textcolor{stringliteral}{"{}Animation"{}})]}
+\DoxyCodeLine{\Hypertarget{_t_m_p___char_shake_scale_animator_8cs_source_l00023}00023\ \ \ \ \ \ \ \ \ [Header(\textcolor{stringliteral}{"{}-\/-\/-\/Can't\ Use\ Easing-\/-\/-\/"{}})]}
+\DoxyCodeLine{\Hypertarget{_t_m_p___char_shake_scale_animator_8cs_source_l00024}\mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_simple_1_1_pro_1_1_t_m_p___char_shake_scale_animator_a78ef5fe7cad8417358dfa8cdf7b14931}{00024}}\ \ \ \ \ \ \ \ \ [SerializeField]\ \textcolor{keyword}{private}\ \mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_core_1_1_main_1_1_pro_1_1_t_m_p___char_shake_scale_animation}{TMP\_CharShakeScaleAnimation}}\ \mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_simple_1_1_pro_1_1_t_m_p___char_shake_scale_animator_a78ef5fe7cad8417358dfa8cdf7b14931}{charShakeScaleAnimation}};}
+\DoxyCodeLine{\Hypertarget{_t_m_p___char_shake_scale_animator_8cs_source_l00025}00025\ }
+\DoxyCodeLine{\Hypertarget{_t_m_p___char_shake_scale_animator_8cs_source_l00026}\mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_simple_1_1_pro_1_1_t_m_p___char_shake_scale_animator_a9110f5a9b07e9b90da200383b7038ea8}{00026}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_simple_1_1_pro_1_1_t_m_p___char_shake_scale_animator_a9110f5a9b07e9b90da200383b7038ea8}{Awake}}()}
+\DoxyCodeLine{\Hypertarget{_t_m_p___char_shake_scale_animator_8cs_source_l00027}00027\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_t_m_p___char_shake_scale_animator_8cs_source_l00028}00028\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//初期化}}
+\DoxyCodeLine{\Hypertarget{_t_m_p___char_shake_scale_animator_8cs_source_l00029}00029\ \ \ \ \ \ \ \ \ \ \ \ \ charShakeScaleAnimation.text\ =\ \mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_simple_1_1_pro_1_1_t_m_p___char_shake_scale_animator_af2ebd08d7fa415527d6558516c3fbaa8}{text}};}
+\DoxyCodeLine{\Hypertarget{_t_m_p___char_shake_scale_animator_8cs_source_l00030}00030\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_t_m_p___char_shake_scale_animator_8cs_source_l00031}00031\ }
+\DoxyCodeLine{\Hypertarget{_t_m_p___char_shake_scale_animator_8cs_source_l00032}\mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_simple_1_1_pro_1_1_t_m_p___char_shake_scale_animator_ad44b0974d77f076495987a2fdb9ce41b}{00032}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{override}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_simple_1_1_pro_1_1_t_m_p___char_shake_scale_animator_ad44b0974d77f076495987a2fdb9ce41b}{Play}}()}
+\DoxyCodeLine{\Hypertarget{_t_m_p___char_shake_scale_animator_8cs_source_l00033}00033\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_t_m_p___char_shake_scale_animator_8cs_source_l00034}00034\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//シーケンスを取得して再生}}
+\DoxyCodeLine{\Hypertarget{_t_m_p___char_shake_scale_animator_8cs_source_l00035}00035\ \ \ \ \ \ \ \ \ \ \ \ \ Sequence\ sq\ =\ DOTween.Sequence();}
+\DoxyCodeLine{\Hypertarget{_t_m_p___char_shake_scale_animator_8cs_source_l00036}00036\ \ \ \ \ \ \ \ \ \ \ \ \ sq.Append(\mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_simple_1_1_pro_1_1_t_m_p___char_shake_scale_animator_a78ef5fe7cad8417358dfa8cdf7b14931}{charShakeScaleAnimation}}.\mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_char_animation_base_ad5d056ca1bdb666301cbce54d0e87351}{GetSequence}}());}
+\DoxyCodeLine{\Hypertarget{_t_m_p___char_shake_scale_animator_8cs_source_l00037}00037\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_animator_base_a12b5c401f7a75c569b59020903b76246}{mainSequence}}.PlayAndInit(sq);}
+\DoxyCodeLine{\Hypertarget{_t_m_p___char_shake_scale_animator_8cs_source_l00038}00038\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_t_m_p___char_shake_scale_animator_8cs_source_l00039}00039\ }
+\DoxyCodeLine{\Hypertarget{_t_m_p___char_shake_scale_animator_8cs_source_l00040}\mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_simple_1_1_pro_1_1_t_m_p___char_shake_scale_animator_ad96e86b7c71bfe8a6dc3857992b7a7a6}{00040}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{override}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_simple_1_1_pro_1_1_t_m_p___char_shake_scale_animator_ad96e86b7c71bfe8a6dc3857992b7a7a6}{Dispose}}()}
+\DoxyCodeLine{\Hypertarget{_t_m_p___char_shake_scale_animator_8cs_source_l00041}00041\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_t_m_p___char_shake_scale_animator_8cs_source_l00042}00042\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//破棄}}
+\DoxyCodeLine{\Hypertarget{_t_m_p___char_shake_scale_animator_8cs_source_l00043}00043\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_animator_base_a12b5c401f7a75c569b59020903b76246}{mainSequence}}?.Dispose();}
+\DoxyCodeLine{\Hypertarget{_t_m_p___char_shake_scale_animator_8cs_source_l00044}00044\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_simple_1_1_pro_1_1_t_m_p___char_shake_scale_animator_a78ef5fe7cad8417358dfa8cdf7b14931}{charShakeScaleAnimation}}?.\mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_core_1_1_main_1_1_pro_1_1_t_m_p___char_shake_scale_animation_a1690ca28ecbb69d1ca4013c6fd8feafa}{Dispose}}();}
+\DoxyCodeLine{\Hypertarget{_t_m_p___char_shake_scale_animator_8cs_source_l00045}00045\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_t_m_p___char_shake_scale_animator_8cs_source_l00046}00046\ }
+\DoxyCodeLine{\Hypertarget{_t_m_p___char_shake_scale_animator_8cs_source_l00047}\mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_simple_1_1_pro_1_1_t_m_p___char_shake_scale_animator_a9ddbafac872fc1f040006a759fb7d981}{00047}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_simple_1_1_pro_1_1_t_m_p___char_shake_scale_animator_a9ddbafac872fc1f040006a759fb7d981}{OnDestroy}}()}
+\DoxyCodeLine{\Hypertarget{_t_m_p___char_shake_scale_animator_8cs_source_l00048}00048\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_t_m_p___char_shake_scale_animator_8cs_source_l00049}00049\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_t_m_p___d_o_tween_template_1_1_simple_1_1_pro_1_1_t_m_p___char_shake_scale_animator_ad96e86b7c71bfe8a6dc3857992b7a7a6}{Dispose}}();}
+\DoxyCodeLine{\Hypertarget{_t_m_p___char_shake_scale_animator_8cs_source_l00050}00050\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_t_m_p___char_shake_scale_animator_8cs_source_l00051}00051\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_t_m_p___char_shake_scale_animator_8cs_source_l00052}00052\ \}}
+
+\end{DoxyCode}

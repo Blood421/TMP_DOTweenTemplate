@@ -1,0 +1,9 @@
+<map id="TMP_DOTweenTemplate.Simple.Pro.TMP_CharPunchRotateAnimator" name="TMP_DOTweenTemplate.Simple.Pro.TMP_CharPunchRotateAnimator">
+<area shape="rect" id="Node000001" title="パンチ回転のアニメーター" alt="" coords="5,272,232,432"/>
+<area shape="rect" id="Node000002" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_animator_base.html" title="アニメーションを実行するアニメーターのベースクラス" alt="" coords="63,119,174,224"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,239,121,272,116,272,116,239"/>
+<area shape="rect" id="Node000003" href="$class_mono_behaviour.html" title=" " alt="" coords="6,5,111,71"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="82,83,98,118,93,120,77,85"/>
+<area shape="rect" id="Node000004" href="$class_i_disposable.html" title=" " alt="" coords="135,5,222,71"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="161,85,145,120,140,118,156,83"/>
+</map>

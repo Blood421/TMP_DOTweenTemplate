@@ -1,0 +1,13 @@
+<map id="TMP_DOTweenTagAnimator.Assets.TMP_TestAnimationSettings" name="TMP_DOTweenTagAnimator.Assets.TMP_TestAnimationSettings">
+<area shape="rect" id="Node000001" title="テスト用のアニメーション設定アセットクラス" alt="" coords="200,317,429,397"/>
+<area shape="rect" id="Node000002" href="$class_t_m_p___d_o_tween_tag_animator_1_1_assets_1_1_t_m_p___animation_settings_base.html" title="タグとそのアニメーション設定のアセット用のベースクラス" alt="" coords="19,149,205,254"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="193,260,265,315,262,319,190,265"/>
+<area shape="rect" id="Node000003" href="$class_scriptable_object.html" title=" " alt="" coords="5,5,117,71"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="78,84,98,148,93,150,73,86"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="141,5,187,71"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="157,71,136,133,131,132,151,69"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="230,169,399,234"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="317,234,317,300,312,300,312,234"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="423,169,593,234"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="506,235,496,266,477,295,446,319,443,315,473,291,491,263,501,233"/>
+</map>

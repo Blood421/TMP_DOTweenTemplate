@@ -1,0 +1,32 @@
+<map id="TMP_DOTweenTemplate.Core.Main.Material.TMPM_FaceColorTimeGradientAnimation" name="TMP_DOTweenTemplate.Core.Main.Material.TMPM_FaceColorTimeGradientAnimation">
+<area shape="rect" id="Node000001" title="FaceColorの時間グラデーションのアニメーション" alt="" coords="475,583,709,718"/>
+<area shape="rect" id="Node000002" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_mat_animation_base.html" title="マテリアルアニメーションのベースクラス AnimationBaseを継承" alt="" coords="219,455,346,520"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="357,525,477,587,474,591,355,530"/>
+<area shape="rect" id="Node000003" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_animation_base.html" title="アニメーションのベースクラス" alt="" coords="219,307,346,392"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="285,407,285,455,280,455,280,407"/>
+<area shape="rect" id="Node000004" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_animation_base_1_1_additional.html" title="追加設定クラス" alt="" coords="247,164,451,244"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="334,244,311,293,307,290,329,242"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="332,5,441,71"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="382,71,365,148,359,146,377,70"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="9,5,47,71"/>
+<area shape="poly" id="edge16_Node000001_Node000006" title=" " alt="" coords="24,71,13,132,8,202,8,489,11,505,20,520,34,534,53,547,104,571,168,591,240,607,315,620,459,637,458,642,314,625,238,612,166,596,102,576,50,552,31,538,16,523,6,507,3,489,3,202,8,131,18,70"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="45,69,69,106,85,123,103,137,135,152,163,155,192,156,229,161,232,162,230,167,227,166,192,161,162,160,134,157,101,142,82,127,65,109,41,72"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="160,5,197,71"/>
+<area shape="poly" id="edge9_Node000003_Node000007" title=" " alt="" coords="173,71,167,107,163,151,166,198,178,243,194,270,214,294,210,297,189,273,173,245,161,199,158,151,162,107,168,70"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="191,69,207,105,232,138,248,152,244,156,228,141,203,107,186,72"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="500,5,527,71"/>
+<area shape="poly" id="edge12_Node000001_Node000008" title=" " alt="" coords="525,70,538,131,545,202,545,489,549,528,559,567,554,568,544,529,540,489,540,202,533,131,520,71"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="502,71,483,107,455,141,439,156,436,152,451,138,478,104,498,68"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="237,5,307,71"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="277,70,284,104,296,139,302,148,298,151,292,141,279,105,272,71"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="71,171,115,236"/>
+<area shape="poly" id="edge10_Node000003_Node000010" title=" " alt="" coords="93,236,96,260,107,281,127,295,148,299,173,300,204,304,203,309,173,305,148,304,125,300,103,284,91,262,88,236"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="133,317,195,382"/>
+<area shape="poly" id="edge11_Node000002_Node000011" title=" " alt="" coords="193,380,246,441,242,444,189,384"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="581,455,702,520"/>
+<area shape="poly" id="edge13_Node000001_Node000012" title=" " alt="" coords="634,521,620,568,615,566,629,520"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="726,455,791,520"/>
+<area shape="poly" id="edge14_Node000001_Node000013" title=" " alt="" coords="728,522,675,574,671,570,724,518"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="859,455,904,520"/>
+<area shape="poly" id="edge15_Node000001_Node000014" title=" " alt="" coords="864,522,847,543,827,561,778,591,726,614,724,610,776,587,824,557,843,539,860,519"/>
+</map>

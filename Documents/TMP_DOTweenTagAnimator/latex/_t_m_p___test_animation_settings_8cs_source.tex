@@ -1,0 +1,25 @@
+\doxysection{TMP\+\_\+\+Test\+Animation\+Settings.\+cs}
+\hypertarget{_t_m_p___test_animation_settings_8cs_source}{}\label{_t_m_p___test_animation_settings_8cs_source}\index{D:/git/TMP\_DOTweenTemplate/DOTweenTemplate/Assets/TMP\_DOTweenTagAnimator/Scripts/Assets/TMP\_TestAnimationSettings.cs@{D:/git/TMP\_DOTweenTemplate/DOTweenTemplate/Assets/TMP\_DOTweenTagAnimator/Scripts/Assets/TMP\_TestAnimationSettings.cs}}
+\mbox{\hyperlink{_t_m_p___test_animation_settings_8cs}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_t_m_p___test_animation_settings_8cs_source_l00001}00001\ \textcolor{keyword}{using\ }TMP\_DOTweenTemplate.Core.Base;}
+\DoxyCodeLine{\Hypertarget{_t_m_p___test_animation_settings_8cs_source_l00002}00002\ \textcolor{keyword}{using\ }TMP\_DOTweenTemplate.Core.Main.Pro;}
+\DoxyCodeLine{\Hypertarget{_t_m_p___test_animation_settings_8cs_source_l00003}00003\ \textcolor{keyword}{using\ }UnityEngine;}
+\DoxyCodeLine{\Hypertarget{_t_m_p___test_animation_settings_8cs_source_l00004}00004\ }
+\DoxyCodeLine{\Hypertarget{_t_m_p___test_animation_settings_8cs_source_l00005}00005\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespace_t_m_p___d_o_tween_tag_animator_1_1_assets}{TMP\_DOTweenTagAnimator.Assets}}}
+\DoxyCodeLine{\Hypertarget{_t_m_p___test_animation_settings_8cs_source_l00006}00006\ \{}
+\DoxyCodeLine{\Hypertarget{_t_m_p___test_animation_settings_8cs_source_l00010}00010\ \ \ \ \ [CreateAssetMenu(fileName\ =\ \textcolor{stringliteral}{"{}TestAnimationSettings"{}},\ menuName\ =\ \textcolor{stringliteral}{"{}TMP\_DOTweenTagAnimator/TestAnimationSettings"{}},\ order\ =\ 1)]}
+\DoxyCodeLine{\Hypertarget{_t_m_p___test_animation_settings_8cs_source_l00011}\mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_assets_1_1_t_m_p___test_animation_settings}{00011}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_assets_1_1_t_m_p___test_animation_settings}{TMP\_TestAnimationSettings}}\ :\ \mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_assets_1_1_t_m_p___animation_settings_base}{TMP\_AnimationSettingsBase}}}
+\DoxyCodeLine{\Hypertarget{_t_m_p___test_animation_settings_8cs_source_l00012}00012\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_t_m_p___test_animation_settings_8cs_source_l00013}00013\ \ \ \ \ \ \ \ \ \textcolor{comment}{//移動と色}}
+\DoxyCodeLine{\Hypertarget{_t_m_p___test_animation_settings_8cs_source_l00014}\mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_assets_1_1_t_m_p___test_animation_settings_a14b98cb6e87990270a78135d53b05ac4}{00014}}\ \ \ \ \ \ \ \ \ [SerializeField]\ \textcolor{keyword}{private}\ TMP\_CharMoveAnimation\ \mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_assets_1_1_t_m_p___test_animation_settings_a14b98cb6e87990270a78135d53b05ac4}{tmpCharMoveAnimation}};}
+\DoxyCodeLine{\Hypertarget{_t_m_p___test_animation_settings_8cs_source_l00015}\mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_assets_1_1_t_m_p___test_animation_settings_a3cb8bfb11b1c9e1746f2af1b7384b7cb}{00015}}\ \ \ \ \ \ \ \ \ [SerializeField]\ \textcolor{keyword}{private}\ TMP\_CharColorAnimation\ \mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_assets_1_1_t_m_p___test_animation_settings_a3cb8bfb11b1c9e1746f2af1b7384b7cb}{tmpCharColorAnimation}};}
+\DoxyCodeLine{\Hypertarget{_t_m_p___test_animation_settings_8cs_source_l00016}00016\ }
+\DoxyCodeLine{\Hypertarget{_t_m_p___test_animation_settings_8cs_source_l00017}\mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_assets_1_1_t_m_p___test_animation_settings_a8dfa88d075e57d1669a63ba30edb5861}{00017}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{override}\ CharAnimationBase[]\ \mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_assets_1_1_t_m_p___test_animation_settings_a8dfa88d075e57d1669a63ba30edb5861}{GetCharAnimations}}()}
+\DoxyCodeLine{\Hypertarget{_t_m_p___test_animation_settings_8cs_source_l00018}00018\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_t_m_p___test_animation_settings_8cs_source_l00019}00019\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ \textcolor{keyword}{new}\ CharAnimationBase[]\ \{\mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_assets_1_1_t_m_p___test_animation_settings_a14b98cb6e87990270a78135d53b05ac4}{tmpCharMoveAnimation}},\mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_assets_1_1_t_m_p___test_animation_settings_a3cb8bfb11b1c9e1746f2af1b7384b7cb}{tmpCharColorAnimation}}\};}
+\DoxyCodeLine{\Hypertarget{_t_m_p___test_animation_settings_8cs_source_l00020}00020\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_t_m_p___test_animation_settings_8cs_source_l00021}00021\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_t_m_p___test_animation_settings_8cs_source_l00022}00022\ \}}
+
+\end{DoxyCode}

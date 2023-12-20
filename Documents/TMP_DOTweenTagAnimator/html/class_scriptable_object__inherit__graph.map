@@ -1,0 +1,9 @@
+<map id="ScriptableObject" name="ScriptableObject">
+<area shape="rect" id="Node000001" title=" " alt="" coords="191,5,303,71"/>
+<area shape="rect" id="Node000002" href="$class_t_m_p___d_o_tween_tag_animator_1_1_assets_1_1_t_m_p___animation_settings_base.html" title="タグとそのアニメーション設定のアセット用のベースクラス" alt="" coords="132,119,361,259"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="249,86,249,119,244,119,244,86"/>
+<area shape="rect" id="Node000003" href="$class_t_m_p___d_o_tween_tag_animator_1_1_assets_1_1_t_m_p___test_animation_settings.html" title="テスト用のアニメーション設定アセットクラス" alt="" coords="5,327,235,427"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="194,272,155,328,151,325,189,269"/>
+<area shape="rect" id="Node000004" href="$class_t_m_p___d_o_tween_tag_animator_1_1_assets_1_1_t_m_p___test_text_box_animation_settings.html" title="テキストボックステスト用のアニメーション設定アセットクラス" alt="" coords="259,307,488,447"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="304,269,329,306,325,309,300,272"/>
+</map>

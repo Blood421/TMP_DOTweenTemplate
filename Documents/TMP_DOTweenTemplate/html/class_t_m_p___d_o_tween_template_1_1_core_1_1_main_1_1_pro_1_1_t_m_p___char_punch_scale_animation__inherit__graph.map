@@ -1,0 +1,9 @@
+<map id="TMP_DOTweenTemplate.Core.Main.Pro.TMP_CharPunchScaleAnimation" name="TMP_DOTweenTemplate.Core.Main.Pro.TMP_CharPunchScaleAnimation">
+<area shape="rect" id="Node000001" title="パンチ拡縮のアニメーション" alt="" coords="5,452,268,632"/>
+<area shape="rect" id="Node000002" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_char_animation_base.html" title="Charアニメーションのベースクラス AnimationBaseを継承" alt="" coords="70,179,203,404"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="139,419,139,452,134,452,134,419"/>
+<area shape="rect" id="Node000003" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_animation_base.html" title="アニメーションのベースクラス" alt="" coords="8,5,135,131"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="96,144,106,178,101,180,91,146"/>
+<area shape="rect" id="Node000004" href="$class_i_disposable.html" title=" " alt="" coords="159,35,245,101"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="191,116,172,180,167,178,186,114"/>
+</map>

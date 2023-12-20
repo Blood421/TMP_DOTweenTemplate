@@ -1,0 +1,53 @@
+<map id="TMP_DOTweenTemplate.Core.Base.AnimationBase" name="TMP_DOTweenTemplate.Core.Base.AnimationBase">
+<area shape="rect" id="Node000001" title="アニメーションのベースクラス" alt="" coords="3549,5,3746,145"/>
+<area shape="rect" id="Node000002" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_char_animation_base.html" title="Charアニメーションのベースクラス AnimationBaseを継承" alt="" coords="2155,193,2353,433"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="3534,98,2353,298,2352,293,3533,93"/>
+<area shape="rect" id="Node000019" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_mat_animation_base.html" title="マテリアルアニメーションのベースクラス AnimationBaseを継承" alt="" coords="5078,273,5275,353"/>
+<area shape="poly" id="edge18_Node000001_Node000019" title=" " alt="" coords="3761,92,5079,294,5078,299,3761,97"/>
+<area shape="rect" id="Node000003" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_main_1_1_pro_1_1_t_m_p___char_color_animation.html" title="色のアニメーション" alt="" coords="5,519,231,659"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="2141,318,1736,325,1469,334,1183,348,899,369,634,398,516,415,410,436,319,458,244,484,214,500,185,521,182,517,211,496,242,479,317,453,409,430,515,410,634,392,898,364,1183,343,1469,328,1736,319,2141,312"/>
+<area shape="rect" id="Node000004" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_main_1_1_pro_1_1_t_m_p___char_color_gradient_animation.html" title="色のグラデーションアニメーション" alt="" coords="255,511,471,666"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="2141,319,1780,329,1545,340,1296,355,1050,376,821,404,719,421,627,440,548,461,484,484,460,497,437,514,433,509,457,492,482,479,547,456,626,435,718,416,820,399,1049,371,1296,350,1545,334,1779,324,2140,314"/>
+<area shape="rect" id="Node000005" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_main_1_1_pro_1_1_t_m_p___char_color_time_gradient_animation.html" title="色の時間グラデーションアニメーション" alt="" coords="495,511,741,666"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="2141,322,1830,338,1427,369,1222,391,1033,417,873,448,807,465,754,484,701,514,699,509,752,479,806,460,872,443,1032,412,1222,386,1426,364,1830,333,2140,317"/>
+<area shape="rect" id="Node000006" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_main_1_1_pro_1_1_t_m_p___char_fade_animation.html" title="透過度のアニメーション" alt="" coords="765,519,988,659"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="2141,324,1877,344,1545,376,1379,398,1226,423,1096,452,1044,467,1000,484,971,500,943,521,940,517,968,496,998,479,1042,462,1095,446,1225,418,1378,393,1545,371,1877,338,2140,319"/>
+<area shape="rect" id="Node000007" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_main_1_1_pro_1_1_t_m_p___char_move_animation.html" title="移動アニメーション" alt="" coords="1012,519,1237,659"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="2140,317,1962,324,1853,334,1735,349,1612,370,1488,399,1366,437,1250,484,1220,500,1193,521,1190,517,1217,496,1248,479,1364,432,1487,394,1611,365,1734,344,1852,329,1962,319,2140,311"/>
+<area shape="rect" id="Node000008" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_main_1_1_pro_1_1_t_m_p___char_move_curve_animation.html" title="文字ごとの移動のアニメーション" alt="" coords="1261,519,1521,659"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="2141,329,2013,348,1859,378,1694,423,1613,451,1535,484,1473,521,1470,516,1533,479,1611,446,1693,418,1858,373,2012,343,2140,324"/>
+<area shape="rect" id="Node000009" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_main_1_1_pro_1_1_t_m_p___char_punch_move_animation.html" title="パンチ移動のアニメーション" alt="" coords="1546,499,1807,679"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="2142,351,1987,407,1902,443,1821,484,1791,501,1789,497,1818,479,1900,438,1985,402,2141,346"/>
+<area shape="rect" id="Node000010" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_main_1_1_pro_1_1_t_m_p___char_punch_rotate_animation.html" title="パンチ回転のアニメーション" alt="" coords="1831,499,2098,679"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="2147,419,2060,501,2057,497,2143,416"/>
+<area shape="rect" id="Node000011" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_main_1_1_pro_1_1_t_m_p___char_punch_scale_animation.html" title="パンチ拡縮のアニメーション" alt="" coords="2123,499,2385,679"/>
+<area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="2257,448,2257,499,2251,499,2251,448"/>
+<area shape="rect" id="Node000012" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_main_1_1_pro_1_1_t_m_p___char_rotate_animation.html" title="回転のアニメーション" alt="" coords="2409,519,2640,659"/>
+<area shape="poly" id="edge11_Node000002_Node000012" title=" " alt="" coords="2365,423,2459,517,2455,521,2361,426"/>
+<area shape="rect" id="Node000013" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_main_1_1_pro_1_1_t_m_p___char_rotate_curve_animation.html" title="文字ごとの回転のアニメーション" alt="" coords="2664,519,2929,659"/>
+<area shape="poly" id="edge12_Node000002_Node000013" title=" " alt="" coords="2368,351,2506,407,2581,441,2653,479,2711,517,2708,521,2650,484,2578,446,2504,412,2366,356"/>
+<area shape="rect" id="Node000014" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_main_1_1_pro_1_1_t_m_p___char_scale_animation.html" title="拡縮のアニメーション" alt="" coords="2954,519,3181,659"/>
+<area shape="poly" id="edge13_Node000002_Node000014" title=" " alt="" coords="2367,323,2490,342,2637,372,2792,417,2869,446,2942,479,2999,517,2996,521,2939,484,2867,451,2791,422,2635,377,2489,347,2367,329"/>
+<area shape="rect" id="Node000015" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_main_1_1_pro_1_1_t_m_p___char_scale_curve_animation.html" title="文字ごとの拡縮のアニメーション" alt="" coords="3205,519,3466,659"/>
+<area shape="poly" id="edge14_Node000002_Node000015" title=" " alt="" coords="2368,315,2534,328,2743,355,2857,376,2972,404,3085,437,3194,479,3227,496,3258,516,3255,521,3224,501,3192,484,3083,442,2970,409,2856,382,2742,360,2533,333,2367,321"/>
+<area shape="rect" id="Node000016" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_main_1_1_pro_1_1_t_m_p___char_shake_move_animation.html" title="シェイク移動アニメーション" alt="" coords="3491,489,3753,689"/>
+<area shape="poly" id="edge15_Node000002_Node000016" title=" " alt="" coords="2368,320,2624,342,2947,377,3108,398,3257,423,3384,449,3479,479,3495,486,3493,491,3477,484,3383,455,3256,428,3108,403,2946,382,2624,347,2367,326"/>
+<area shape="rect" id="Node000017" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_main_1_1_pro_1_1_t_m_p___char_shake_rotate_animation.html" title="シェイク回転アニメーション" alt="" coords="3778,489,4047,689"/>
+<area shape="poly" id="edge16_Node000002_Node000017" title=" " alt="" coords="2368,317,2679,335,3085,367,3291,388,3482,414,3644,444,3711,461,3766,479,3783,486,3781,491,3764,484,3709,466,3643,449,3481,419,3290,394,3085,372,2679,340,2367,322"/>
+<area shape="rect" id="Node000018" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_main_1_1_pro_1_1_t_m_p___char_shake_scale_animation.html" title="シェイク拡縮アニメーション" alt="" coords="4072,489,4337,689"/>
+<area shape="poly" id="edge17_Node000002_Node000018" title=" " alt="" coords="2368,315,2734,328,2972,339,3226,356,3478,377,3712,405,3912,438,3993,458,4060,479,4078,486,4076,491,4058,484,3992,463,3911,443,3711,410,3478,383,3226,361,2972,345,2734,333,2367,320"/>
+<area shape="rect" id="Node000020" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_main_1_1_material_1_1_t_m_p_m___face_color_animation.html" title="FaceColorのアニメーション" alt="" coords="4362,489,4626,689"/>
+<area shape="poly" id="edge19_Node000019_Node000020" title=" " alt="" coords="5064,341,4970,364,4862,396,4748,435,4639,484,4625,491,4623,487,4637,479,4746,430,4860,391,4968,359,5063,335"/>
+<area shape="rect" id="Node000021" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_main_1_1_material_1_1_t_m_p_m___face_color_time_gradient_animation.html" title="FaceColorの時間グラデーションのアニメーション" alt="" coords="4651,481,4884,696"/>
+<area shape="poly" id="edge20_Node000019_Node000021" title=" " alt="" coords="5093,363,4997,418,4897,484,4885,492,4882,487,4894,479,4994,414,5090,358"/>
+<area shape="rect" id="Node000022" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_main_1_1_material_1_1_t_m_p_m___face_dilate_animation.html" title="FaceDilateのアニメーション" alt="" coords="4908,489,5176,689"/>
+<area shape="poly" id="edge21_Node000019_Node000022" title=" " alt="" coords="5153,368,5093,490,5088,488,5149,366"/>
+<area shape="rect" id="Node000023" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_main_1_1_material_1_1_t_m_p_m___face_softness_animation.html" title="FaceSoftのアニメーション" alt="" coords="5201,481,5422,696"/>
+<area shape="poly" id="edge22_Node000019_Node000023" title=" " alt="" coords="5205,366,5261,480,5257,483,5200,368"/>
+<area shape="rect" id="Node000024" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_main_1_1_material_1_1_t_m_p_m___outline_color_animation.html" title="OutlineColorのアニメーション" alt="" coords="5447,481,5664,696"/>
+<area shape="poly" id="edge23_Node000019_Node000024" title=" " alt="" coords="5256,359,5344,415,5436,479,5448,489,5445,493,5432,483,5341,419,5253,363"/>
+<area shape="rect" id="Node000025" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_main_1_1_material_1_1_t_m_p_m___outline_color_time_gradient_animation.html" title="OutlineColorの時間グラデーションアニメーション" alt="" coords="5688,481,5905,696"/>
+<area shape="poly" id="edge24_Node000019_Node000025" title=" " alt="" coords="5290,336,5378,359,5477,390,5580,430,5678,479,5690,486,5687,491,5675,484,5578,435,5475,395,5376,364,5289,341"/>
+<area shape="rect" id="Node000026" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_main_1_1_material_1_1_t_m_p_m___outline_thickness_animation.html" title="OutlineThicknessのアニメーション" alt="" coords="5930,481,6175,696"/>
+<area shape="poly" id="edge25_Node000019_Node000026" title=" " alt="" coords="5290,322,5422,339,5582,369,5668,390,5754,415,5838,444,5919,479,5931,485,5929,490,5917,484,5836,449,5752,420,5666,395,5581,374,5421,344,5289,327"/>
+</map>

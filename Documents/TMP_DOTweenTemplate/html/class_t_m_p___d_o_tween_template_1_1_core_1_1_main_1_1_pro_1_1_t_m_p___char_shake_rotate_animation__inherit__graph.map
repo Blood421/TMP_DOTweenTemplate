@@ -1,0 +1,9 @@
+<map id="TMP_DOTweenTemplate.Core.Main.Pro.TMP_CharShakeRotateAnimation" name="TMP_DOTweenTemplate.Core.Main.Pro.TMP_CharShakeRotateAnimation">
+<area shape="rect" id="Node000001" title="シェイク回転アニメーション" alt="" coords="5,452,275,652"/>
+<area shape="rect" id="Node000002" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_char_animation_base.html" title="Charアニメーションのベースクラス AnimationBaseを継承" alt="" coords="73,179,207,404"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="143,419,143,452,137,452,137,419"/>
+<area shape="rect" id="Node000003" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_animation_base.html" title="アニメーションのベースクラス" alt="" coords="11,5,138,131"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="100,144,110,178,105,180,94,146"/>
+<area shape="rect" id="Node000004" href="$class_i_disposable.html" title=" " alt="" coords="162,35,249,101"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="194,116,175,180,170,178,189,114"/>
+</map>

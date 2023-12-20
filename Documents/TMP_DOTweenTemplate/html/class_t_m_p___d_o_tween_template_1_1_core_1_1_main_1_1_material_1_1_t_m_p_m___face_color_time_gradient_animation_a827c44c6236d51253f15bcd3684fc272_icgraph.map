@@ -1,0 +1,13 @@
+<map id="TMP_DOTweenTemplate.Core.Main.Material.TMPM_FaceColorTimeGradientAnimation.Reset" name="TMP_DOTweenTemplate.Core.Main.Material.TMPM_FaceColorTimeGradientAnimation.Reset">
+<area shape="rect" id="Node000001" title=" " alt="" coords="930,45,1172,101"/>
+<area shape="rect" id="Node000002" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_main_1_1_material_1_1_t_m_p_m___face_color_time_gradient_animation.html#a0467cef7c83e9a4fce0950d74c40ad5f" title=" " alt="" coords="632,5,873,61"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="915,58,873,52,873,47,915,52"/>
+<area shape="rect" id="Node000005" href="$class_t_m_p___d_o_tween_template_1_1_simple_1_1_material_1_1_t_m_p_m___face_color_time_gradient_animator.html#ad5d7da000f0d19872f22c83c53c05fb5" title=" " alt="" coords="622,85,882,141"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="915,94,883,98,882,93,915,89"/>
+<area shape="rect" id="Node000003" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_main_1_1_material_1_1_t_m_p_m___face_color_time_gradient_animation.html#a2e7800e6ea35ae69b28530c061c58121" title=" " alt="" coords="323,5,565,61"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="616,36,565,36,565,31,616,31"/>
+<area shape="rect" id="Node000004" href="$class_t_m_p___d_o_tween_template_1_1_simple_1_1_material_1_1_t_m_p_m___face_color_time_gradient_animator.html#a1e227d0f3c47156bb8e508513aa7c0d5" title=" " alt="" coords="5,5,266,61"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="308,36,266,36,266,31,308,31"/>
+<area shape="rect" id="Node000006" href="$class_t_m_p___d_o_tween_template_1_1_simple_1_1_material_1_1_t_m_p_m___face_color_time_gradient_animator.html#a36f34892f980de8e5f1a5559d52c93df" title=" " alt="" coords="314,85,574,141"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="607,116,574,116,574,111,607,111"/>
+</map>

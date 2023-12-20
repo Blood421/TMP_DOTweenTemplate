@@ -1,0 +1,7 @@
+<map id="TMP_DOTweenTemplate.Simple.Pro.TMP_CharColorTimeGradientAnimator.Play" name="TMP_DOTweenTemplate.Simple.Pro.TMP_CharColorTimeGradientAnimator.Play">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,312,46"/>
+<area shape="rect" id="Node000002" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_char_animation_base.html#ad5d056ca1bdb666301cbce54d0e87351" title="アニメーションのシーケンスを取得" alt="" coords="360,5,618,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="312,23,344,23,344,28,312,28"/>
+<area shape="rect" id="Node000003" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_animation_base.html#a5cfb905cae06ea6fc613f3012123dff8" title="シーケンスを作る" alt="" coords="666,5,913,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="618,23,650,23,650,28,618,28"/>
+</map>

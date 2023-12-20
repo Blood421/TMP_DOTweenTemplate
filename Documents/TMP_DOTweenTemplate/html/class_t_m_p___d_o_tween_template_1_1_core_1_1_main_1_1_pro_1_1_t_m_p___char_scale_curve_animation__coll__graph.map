@@ -1,0 +1,32 @@
+<map id="TMP_DOTweenTemplate.Core.Main.Pro.TMP_CharScaleCurveAnimation" name="TMP_DOTweenTemplate.Core.Main.Pro.TMP_CharScaleCurveAnimation">
+<area shape="rect" id="Node000001" title="文字ごとの拡縮のアニメーション" alt="" coords="127,755,388,895"/>
+<area shape="rect" id="Node000002" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_char_animation_base.html" title="Charアニメーションのベースクラス AnimationBaseを継承" alt="" coords="436,520,569,705"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="426,683,339,757,336,753,423,679"/>
+<area shape="rect" id="Node000003" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_animation_base.html" title="アニメーションのベースクラス" alt="" coords="245,372,371,457"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="361,465,438,543,434,546,357,469"/>
+<area shape="rect" id="Node000004" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_animation_base_1_1_additional.html" title="追加設定クラス" alt="" coords="206,164,410,244"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="311,244,311,355,305,355,305,244"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="63,5,172,71"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="126,70,138,105,160,138,193,163,189,167,156,141,133,107,121,71"/>
+<area shape="rect" id="Node000014" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_animation_curve_vector3.html" title="アニメーションカーブを3方向分まとめたクラス" alt="" coords="5,268,203,348"/>
+<area shape="poly" id="edge16_Node000014_Node000005" title=" " alt="" coords="114,71,111,95,107,177,106,251,101,251,101,176,106,94,109,70"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="226,5,265,71"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="240,71,238,104,245,139,250,149,245,151,239,141,232,105,235,70"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="584,5,621,71"/>
+<area shape="poly" id="edge12_Node000002_Node000007" title=" " alt="" coords="623,52,694,116,738,163,780,216,815,275,837,336,841,367,840,398,833,429,820,458,799,488,773,513,744,535,713,554,648,582,586,600,585,594,646,577,711,549,741,531,770,509,795,484,815,456,828,427,835,397,836,367,831,337,810,277,776,219,734,166,690,120,619,56"/>
+<area shape="poly" id="edge9_Node000003_Node000007" title=" " alt="" coords="602,71,593,131,572,207,555,247,535,285,510,320,479,350,457,362,436,367,414,368,388,374,386,368,414,363,436,361,455,357,476,346,506,316,531,282,551,245,566,206,587,130,597,70"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="586,56,541,97,520,121,496,142,464,156,427,165,426,160,462,151,493,137,516,117,537,93,583,52"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="355,5,381,71"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="364,71,344,141,340,149,335,147,339,139,359,70"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="406,5,477,71"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="436,71,422,106,401,141,388,155,384,151,397,138,417,104,431,69"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="434,171,478,236"/>
+<area shape="poly" id="edge10_Node000003_Node000010" title=" " alt="" coords="447,237,423,292,387,349,377,361,373,358,383,346,419,289,442,235"/>
+<area shape="rect" id="Node000011" href="$class_i_disposable.html" title=" " alt="" coords="395,382,482,447"/>
+<area shape="poly" id="edge11_Node000002_Node000011" title=" " alt="" coords="456,460,475,519,470,521,451,462"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="506,382,627,447"/>
+<area shape="poly" id="edge13_Node000002_Node000012" title=" " alt="" coords="559,447,540,505,535,503,554,446"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="651,382,805,447"/>
+<area shape="poly" id="edge14_Node000002_Node000013" title=" " alt="" coords="694,449,584,544,580,540,691,445"/>
+<area shape="poly" id="edge15_Node000001_Node000014" title=" " alt="" coords="118,347,235,738,229,739,113,348"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="TMP_DOTweenTextBox.Core.Animator.TextBoxTextAnimatorPresenter.TextBoxToAnimator" name="TMP_DOTweenTextBox.Core.Animator.TextBoxTextAnimatorPresenter.TextBoxToAnimator">
+<area shape="rect" id="Node000001" title="テキストボックスからアニメーターへ アニメーションの開始" alt="" coords="5,5,209,61"/>
+<area shape="rect" id="Node000002" href="$class_t_m_p___d_o_tween_text_box_1_1_core_1_1_animator_1_1_text_box_text_animator.html#aea35f338d30e1132dc6fb0bfbaec6837" title="アニメーション開始" alt="" coords="257,5,463,61"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="209,31,241,31,241,36,209,36"/>
+<area shape="rect" id="Node000003" href="$class_t_m_p___d_o_tween_text_box_1_1_core_1_1_animator_1_1_text_box_text_animator.html#a45bb1ebccd3db8d0c047ec06acc61beb" title="タグアニメーション以外の部分の範囲を取得する" alt="" coords="511,5,717,61"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="464,31,496,31,496,36,464,36"/>
+</map>

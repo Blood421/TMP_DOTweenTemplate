@@ -1,0 +1,13 @@
+<map id="TMP_DOTweenTemplate.Core.Main.Material.TMPM_OutlineColorAnimation.Reset" name="TMP_DOTweenTemplate.Core.Main.Material.TMPM_OutlineColorAnimation.Reset">
+<area shape="rect" id="Node000001" title=" " alt="" coords="928,45,1155,101"/>
+<area shape="rect" id="Node000002" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_main_1_1_material_1_1_t_m_p_m___outline_color_animation.html#a26ea78372ffdf45c68bb9bea370b24f6" title=" " alt="" coords="642,5,868,61"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="913,58,868,52,869,46,914,53"/>
+<area shape="rect" id="Node000005" href="$class_t_m_p___d_o_tween_template_1_1_simple_1_1_material_1_1_t_m_p_m___outline_color_animator.html#ad52a4f59e82a27a6204b999d5bd2337e" title=" " alt="" coords="630,85,880,141"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="913,94,881,98,881,93,913,88"/>
+<area shape="rect" id="Node000003" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_main_1_1_material_1_1_t_m_p_m___outline_color_animation.html#af409143e22a4c49934f1153e811648dc" title=" " alt="" coords="344,5,570,61"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="627,36,570,36,570,31,627,31"/>
+<area shape="rect" id="Node000004" href="$class_t_m_p___d_o_tween_template_1_1_simple_1_1_material_1_1_t_m_p_m___outline_color_animator.html#aced1c9be87da1069e849afb4c2dc117d" title=" " alt="" coords="5,13,284,54"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="328,36,284,36,284,31,328,31"/>
+<area shape="rect" id="Node000006" href="$class_t_m_p___d_o_tween_template_1_1_simple_1_1_material_1_1_t_m_p_m___outline_color_animator.html#a0da72c69fce5854e93b84aec18508271" title=" " alt="" coords="332,85,582,141"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="615,116,582,116,582,111,615,111"/>
+</map>

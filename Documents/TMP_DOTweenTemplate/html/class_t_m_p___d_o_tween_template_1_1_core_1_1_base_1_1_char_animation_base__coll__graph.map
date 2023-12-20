@@ -1,0 +1,27 @@
+<map id="TMP_DOTweenTemplate.Core.Base.CharAnimationBase" name="TMP_DOTweenTemplate.Core.Base.CharAnimationBase">
+<area shape="rect" id="Node000001" title="Charアニメーションのベースクラス AnimationBaseを継承" alt="" coords="156,455,353,655"/>
+<area shape="rect" id="Node000002" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_animation_base.html" title="アニメーションのベースクラス" alt="" coords="60,307,187,392"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,403,193,454,189,457,156,406"/>
+<area shape="rect" id="Node000003" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_animation_base_1_1_additional.html" title="追加設定クラス" alt="" coords="218,164,422,244"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="269,245,196,299,192,295,266,241"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="153,5,262,71"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="214,70,222,104,238,138,248,150,244,154,234,141,217,106,209,71"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="460,5,499,71"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="476,71,464,107,443,141,428,156,424,152,439,138,460,105,471,70"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="48,5,85,71"/>
+<area shape="poly" id="edge11_Node000001_Node000006" title=" " alt="" coords="53,72,36,113,20,166,10,224,12,282,23,340,33,363,50,390,93,440,144,482,140,486,90,443,46,394,28,366,18,341,6,283,4,223,14,164,31,111,48,70"/>
+<area shape="poly" id="edge8_Node000002_Node000006" title=" " alt="" coords="67,71,68,150,72,197,81,243,97,290,92,292,75,244,67,197,63,150,62,71"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="87,61,123,100,168,137,204,158,201,162,165,142,119,103,83,65"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="297,5,324,71"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="315,70,319,140,319,147,314,147,313,140,309,71"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="348,5,419,71"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="378,71,355,141,352,149,347,147,351,139,373,70"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="150,171,194,236"/>
+<area shape="poly" id="edge9_Node000002_Node000009" title=" " alt="" coords="164,237,145,292,140,290,159,235"/>
+<area shape="rect" id="Node000010" href="$class_i_disposable.html" title=" " alt="" coords="211,317,298,382"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="257,397,257,455,252,455,252,397"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="322,317,443,382"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="365,383,328,442,323,439,360,381"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="467,317,620,382"/>
+<area shape="poly" id="edge13_Node000001_Node000012" title=" " alt="" coords="501,384,369,477,366,472,498,380"/>
+</map>

@@ -1,0 +1,76 @@
+\doxysection{TMP\+\_\+\+Tag\+Animator\+Text.\+cs}
+\hypertarget{_t_m_p___tag_animator_text_8cs_source}{}\label{_t_m_p___tag_animator_text_8cs_source}\index{D:/git/TMP\_DOTweenTemplate/DOTweenTemplate/Assets/TMP\_DOTweenTagAnimator/Scripts/Core/TMP\_TagAnimatorText.cs@{D:/git/TMP\_DOTweenTemplate/DOTweenTemplate/Assets/TMP\_DOTweenTagAnimator/Scripts/Core/TMP\_TagAnimatorText.cs}}
+\mbox{\hyperlink{_t_m_p___tag_animator_text_8cs}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00001}00001\ \textcolor{keyword}{using\ }System.Collections.Generic;}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00002}00002\ \textcolor{keyword}{using\ }DG.Tweening;}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00003}00003\ \textcolor{keyword}{using\ }TMP\_DOTweenTemplate.Core.Base;}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00004}00004\ \textcolor{keyword}{using\ }TMP\_DOTweenTemplate.Core.Main;}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00005}00005\ \textcolor{keyword}{using\ }TMPro;}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00006}00006\ \textcolor{keyword}{using\ }UnityEngine;}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00007}00007\ }
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00008}00008\ \textcolor{keyword}{namespace\ }\mbox{\hyperlink{namespace_t_m_p___d_o_tween_tag_animator_1_1_core}{TMP\_DOTweenTagAnimator.Core}}}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00009}00009\ \{}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00013}\mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text}{00013}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text}{TMP\_TagAnimatorText}}\ :\ \mbox{\hyperlink{class_mono_behaviour}{MonoBehaviour}}}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00014}00014\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00018}\mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_adad09d7cbf7ad2dcf0ab5a93e45f6fad}{00018}}\ \ \ \ \ \ \ \ \ [SerializeField]\ \textcolor{keyword}{private}\ TextMeshProUGUI\ \mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_adad09d7cbf7ad2dcf0ab5a93e45f6fad}{text}};}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00019}00019\ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00023}\mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_af85430a271251710e0e3ea6a128cbc46}{00023}}\ \ \ \ \ \ \ \ \ [SerializeField]\ \textcolor{keyword}{private}\ SequenceAnimation\ \mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_af85430a271251710e0e3ea6a128cbc46}{sequenceAnimation}};}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00024}00024\ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00028}\mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_a729aa68c6650ef8ac83c7335bc412aab}{00028}}\ \ \ \ \ \ \ \ \ [SerializeField]\ \textcolor{keyword}{private}\ \textcolor{keywordtype}{bool}\ \mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_a729aa68c6650ef8ac83c7335bc412aab}{isStartAnimationPlay}}\ =\ \textcolor{keyword}{false};}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00029}00029\ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00034}\mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_aba853771214a21b20374e1c457425300}{00034}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ SequenceEvent\ \mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_aba853771214a21b20374e1c457425300}{GetSequenceEvent}}()\ =>\ \mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_af85430a271251710e0e3ea6a128cbc46}{sequenceAnimation}}.sequenceEvent;}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00035}00035\ }
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00039}\mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_a5fb01b450ac1000f9996d69ef4af349d}{00039}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{private}\ List<TMP\_TagAnimationData>\ \mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_a5fb01b450ac1000f9996d69ef4af349d}{tmpTagAnimationDataList}}\ =\ \textcolor{keyword}{new}\ List<TMP\_TagAnimationData>();}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00040}00040\ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00044}\mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_ab30bf6d442a81046096ee4bebca54dba}{00044}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{private}\ DOTweenTMPAnimator\ \mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_ab30bf6d442a81046096ee4bebca54dba}{animator}};}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00045}00045\ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00046}\mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_a6259b08f88cbcd6c7a86c4389a8ec4e6}{00046}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_a6259b08f88cbcd6c7a86c4389a8ec4e6}{Awake}}()}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00047}00047\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00048}00048\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//初期化}}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00049}00049\ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00050}00050\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//タグをチェックしてその結果から生成されたアニメーションとその範囲データをセット}}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00051}00051\ \ \ \ \ \ \ \ \ \ \ \ \ var\ result\ =\ \mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_manager}{TMP\_TagAnimatorManager}}.\mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_manager_a70730ad031f5e9a2ba26a792e1226303}{instance}}.\mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_manager_ab0136c7e6bea0c8bb2a1c910c37fefbb}{CheckTags}}(\mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_adad09d7cbf7ad2dcf0ab5a93e45f6fad}{text}}.text,\mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_adad09d7cbf7ad2dcf0ab5a93e45f6fad}{text}}.richText);}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00052}00052\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_a5fb01b450ac1000f9996d69ef4af349d}{tmpTagAnimationDataList}}\ =\ result.dataList;}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00053}00053\ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00054}00054\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//テキストをセット}}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00055}00055\ \ \ \ \ \ \ \ \ \ \ \ \ text.text\ =\ result.checkedText;}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00056}00056\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00057}00057\ }
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00058}\mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_a482af0b52ef261f9f016441b5840703c}{00058}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{private}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_a482af0b52ef261f9f016441b5840703c}{Start}}()}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00059}00059\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00060}00060\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//フラグが立ってたらアニメーション開始}}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00061}00061\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}(\mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_a729aa68c6650ef8ac83c7335bc412aab}{isStartAnimationPlay}})\ \mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_ae5dde7a75c7714d7a224e5d2380ec73e}{Play}}();}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00062}00062\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00063}00063\ }
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00067}\mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_ae5dde7a75c7714d7a224e5d2380ec73e}{00067}}\ \ \ \ \ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_ae5dde7a75c7714d7a224e5d2380ec73e}{Play}}()}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00068}00068\ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00069}00069\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//初期化}}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00070}00070\ \ \ \ \ \ \ \ \ \ \ \ \ Sequence\ sq\ =\ DOTween.Sequence();}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00071}00071\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_ab30bf6d442a81046096ee4bebca54dba}{animator}}\ =\ \textcolor{keyword}{new}\ DOTweenTMPAnimator(\mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_adad09d7cbf7ad2dcf0ab5a93e45f6fad}{text}});}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00072}00072\ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00073}00073\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//アニメーションを設定}}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00074}00074\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//アニメーションとその範囲データのある分だけループ}}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00075}00075\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{foreach}\ (\mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animation_data}{TMP\_TagAnimationData}}\ tmpTagAnimationData\ \textcolor{keywordflow}{in}\ \mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_a5fb01b450ac1000f9996d69ef4af349d}{tmpTagAnimationDataList}})}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00076}00076\ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00077}00077\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//範囲の設定}}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00078}00078\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ beginIndex\ =\ tmpTagAnimationData.\mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animation_data_a6a4cc80c3fc74617f8375763a590e0da}{beginIndex}};}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00079}00079\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ endIndex\ =\ tmpTagAnimationData.\mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animation_data_a9bae56bf01eabfc5ad0da2be5aa219eb}{endIndex}};}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00080}00080\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ RangeInt\ range\ =\ \textcolor{keyword}{new}\ RangeInt(beginIndex,\ endIndex\ -\/\ beginIndex);}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00081}00081\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00082}00082\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//アニメーションの数分設定}}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00083}00083\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{foreach}\ (CharAnimationBase\ charAnimationBase\ \textcolor{keywordflow}{in}\ tmpTagAnimationData.\mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animation_data_a000817c51cbfbb5a17aa69eaafe51e72}{charAnimationBases}})}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00084}00084\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00085}00085\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//Debug.Log(range.start\ +\ "{}\ :\ "{}\ +\ range.end);}}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00086}00086\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//文字範囲付きでアニメーション設定}}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00087}00087\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ sq.Join(charAnimationBase.GetSequence(\mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_ab30bf6d442a81046096ee4bebca54dba}{animator}},range));}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00088}00088\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00089}00089\ \ \ \ \ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00090}00090\ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00091}00091\ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//アニメーション開始}}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00092}00092\ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_af85430a271251710e0e3ea6a128cbc46}{sequenceAnimation}}.PlayAndInit(sq);}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00093}00093\ \ \ \ \ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00094}00094\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_t_m_p___tag_animator_text_8cs_source_l00095}00095\ \}}
+
+\end{DoxyCode}

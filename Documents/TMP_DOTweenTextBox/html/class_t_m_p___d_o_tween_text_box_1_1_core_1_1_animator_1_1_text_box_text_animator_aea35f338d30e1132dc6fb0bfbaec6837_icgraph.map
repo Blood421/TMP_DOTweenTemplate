@@ -1,0 +1,13 @@
+<map id="TMP_DOTweenTextBox.Core.Animator.TextBoxTextAnimator.PlayAnimation" name="TMP_DOTweenTextBox.Core.Animator.TextBoxTextAnimator.PlayAnimation">
+<area shape="rect" id="Node000001" title="アニメーション開始" alt="" coords="815,45,1022,101"/>
+<area shape="rect" id="Node000002" href="$class_t_m_p___d_o_tween_text_box_1_1_core_1_1_animator_1_1_text_box_text_animator_presenter.html#a21c1bbe202a2e2cd7896496a9a21ee84" title="テキストボックスからアニメーターへ アニメーションの開始" alt="" coords="564,45,767,101"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="800,76,768,76,768,71,800,71"/>
+<area shape="rect" id="Node000003" href="$class_t_m_p___d_o_tween_text_box_1_1_core_1_1_animator_1_1_text_box_text_animator_presenter.html#a56de648aaca7b9857f21983ab7e850b4" title="破棄" alt="" coords="313,5,516,61"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="548,57,516,52,517,47,549,52"/>
+<area shape="rect" id="Node000005" href="$class_t_m_p___d_o_tween_text_box_1_1_core_1_1_animator_1_1_text_box_text_animator_presenter.html#a7ddb14b0516bb41938731bb9b2c01c44" title="イベント購読" alt="" coords="313,85,516,141"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="549,94,517,100,516,94,548,89"/>
+<area shape="rect" id="Node000004" href="$class_t_m_p___d_o_tween_text_box_1_1_core_1_1_animator_1_1_text_box_text_animator.html#a7a6781b7afea0a239439ad31e7dc6e42" title=" " alt="" coords="32,5,238,61"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="297,36,239,36,239,31,297,31"/>
+<area shape="rect" id="Node000006" href="$class_t_m_p___d_o_tween_text_box_1_1_core_1_1_animator_1_1_text_box_text_animator_presenter.html#a27873a75f884ba578f788558cf2efdf4" title="コンストラクタ" alt="" coords="5,85,265,141"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="297,116,265,116,265,111,297,111"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="TMP_DOTweenTemplate.Demo.DemoAnimationGallery.Update" name="TMP_DOTweenTemplate.Demo.DemoAnimationGallery.Update">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,71,219,111"/>
+<area shape="rect" id="Node000002" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_animator_base.html#ae2b39fe261fe6f67de503f503cd3c2b3" title="破棄" alt="" coords="285,5,491,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,67,284,47,285,53,202,73"/>
+<area shape="rect" id="Node000003" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_animator_base.html#a1e13262e3870d812238c21e965741f44" title="再生" alt="" coords="285,71,491,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="219,88,269,88,269,94,219,94"/>
+<area shape="rect" id="Node000004" href="$class_t_m_p___d_o_tween_template_1_1_demo_1_1_demo_animation_gallery.html#a2268933bae54585f334d5c7b4487a161" title=" " alt="" coords="267,136,509,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="202,109,285,129,284,135,200,115"/>
+</map>

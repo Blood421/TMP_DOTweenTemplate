@@ -1,0 +1,13 @@
+<map id="TMP_DOTweenTextBox.Core.TextBox.TMP_DOTweenTextBox.UpdateText" name="TMP_DOTweenTextBox.Core.TextBox.TMP_DOTweenTextBox.UpdateText">
+<area shape="rect" id="Node000001" title="表示テキストを更新" alt="" coords="549,104,831,145"/>
+<area shape="rect" id="Node000002" href="$class_t_m_p___d_o_tween_text_box_1_1_core_1_1_text_box_1_1_t_m_p___d_o_tween_text_box.html#a5878aac7b5b0b23f2ed9db8c47853772" title="表示を次へ" alt="" coords="259,5,500,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="616,101,500,62,458,49,460,44,502,56,618,96"/>
+<area shape="rect" id="Node000003" href="$class_t_m_p___d_o_tween_text_box_1_1_core_1_1_text_box_1_1_t_m_p___d_o_tween_text_box.html#ac8bb1782854830b412311b5656df79ee" title="表示をひとつ前へ" alt="" coords="258,71,501,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="533,110,501,107,501,101,534,105"/>
+<area shape="rect" id="Node000004" href="$class_t_m_p___d_o_tween_text_box_1_1_core_1_1_text_box_1_1_t_m_p___d_o_tween_text_box.html#af56a6e960efcdaad60556a38c152432b" title="表示を最後までスキップ" alt="" coords="258,136,501,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="534,143,502,146,501,141,533,138"/>
+<area shape="rect" id="Node000005" href="$class_t_m_p___d_o_tween_text_box_1_1_core_1_1_text_box_1_1_t_m_p___d_o_tween_text_box.html#ac6a1773f0965bab7dba85014e538803c" title="テキストボックスの表示開始" alt="" coords="258,201,501,256"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="615,153,502,191,467,203,465,197,500,186,613,148"/>
+<area shape="rect" id="Node000006" href="$class_t_m_p___d_o_tween_text_box_1_1_demo_1_1_text_box_tester.html#adf8c47aa581bc2159c3e877ce0f12dd5" title=" " alt="" coords="5,208,210,249"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="242,231,210,231,210,226,242,226"/>
+</map>

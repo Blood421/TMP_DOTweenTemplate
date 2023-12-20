@@ -1,0 +1,213 @@
+\doxysection{TMP\+\_\+\+DOTween\+Tag\+Animator.\+Core.\+TMP\+\_\+\+Tag\+Animator\+Text Class Reference}
+\hypertarget{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text}{}\label{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text}\index{TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorText@{TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorText}}
+
+
+タグアニメーション用のテキストクラス  
+
+
+
+
+Inheritance diagram for TMP\+\_\+\+DOTween\+Tag\+Animator.\+Core.\+TMP\+\_\+\+Tag\+Animator\+Text\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=243pt]{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for TMP\+\_\+\+DOTween\+Tag\+Animator.\+Core.\+TMP\+\_\+\+Tag\+Animator\+Text\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Sequence\+Event \mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_aba853771214a21b20374e1c457425300}{Get\+Sequence\+Event}} ()
+\begin{DoxyCompactList}\small\item\em シーケンスイベント取得 \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_ae5dde7a75c7714d7a224e5d2380ec73e}{Play}} ()
+\begin{DoxyCompactList}\small\item\em アニメーション開始 \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_a6259b08f88cbcd6c7a86c4389a8ec4e6}{Awake}} ()
+\item 
+void \mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_a482af0b52ef261f9f016441b5840703c}{Start}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Text\+Mesh\+Pro\+UGUI \mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_adad09d7cbf7ad2dcf0ab5a93e45f6fad}{text}}
+\begin{DoxyCompactList}\small\item\em タグアニメーションさせる\+TMP\+\_\+\+Text \end{DoxyCompactList}\item 
+Sequence\+Animation \mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_af85430a271251710e0e3ea6a128cbc46}{sequence\+Animation}}
+\begin{DoxyCompactList}\small\item\em シーケンスアニメーション \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_a729aa68c6650ef8ac83c7335bc412aab}{is\+Start\+Animation\+Play}} = false
+\begin{DoxyCompactList}\small\item\em スタートでアニメーションを始めるかどうか \end{DoxyCompactList}\item 
+List$<$ \mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animation_data}{TMP\+\_\+\+Tag\+Animation\+Data}} $>$ \mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_a5fb01b450ac1000f9996d69ef4af349d}{tmp\+Tag\+Animation\+Data\+List}} = new List$<$\mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animation_data}{TMP\+\_\+\+Tag\+Animation\+Data}}$>$()
+\begin{DoxyCompactList}\small\item\em 文字アニメーションとその範囲データのリスト \end{DoxyCompactList}\item 
+DOTween\+TMPAnimator \mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_ab30bf6d442a81046096ee4bebca54dba}{animator}}
+\begin{DoxyCompactList}\small\item\em 文字アニメーション用\+DOTween\+TMPAnimator \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+タグアニメーション用のテキストクラス 
+
+Definition at line \mbox{\hyperlink{_t_m_p___tag_animator_text_8cs_source_l00013}{13}} of file \mbox{\hyperlink{_t_m_p___tag_animator_text_8cs_source}{TMP\+\_\+\+Tag\+Animator\+Text.\+cs}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_a6259b08f88cbcd6c7a86c4389a8ec4e6}\label{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_a6259b08f88cbcd6c7a86c4389a8ec4e6} 
+\index{TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorText@{TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorText}!Awake@{Awake}}
+\index{Awake@{Awake}!TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorText@{TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorText}}
+\doxysubsubsection{\texorpdfstring{Awake()}{Awake()}}
+{\footnotesize\ttfamily void TMP\+\_\+\+DOTween\+Tag\+Animator.\+Core.\+TMP\+\_\+\+Tag\+Animator\+Text.\+Awake (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_t_m_p___tag_animator_text_8cs_source_l00046}{46}} of file \mbox{\hyperlink{_t_m_p___tag_animator_text_8cs_source}{TMP\+\_\+\+Tag\+Animator\+Text.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_a6259b08f88cbcd6c7a86c4389a8ec4e6_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_aba853771214a21b20374e1c457425300}\label{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_aba853771214a21b20374e1c457425300} 
+\index{TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorText@{TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorText}!GetSequenceEvent@{GetSequenceEvent}}
+\index{GetSequenceEvent@{GetSequenceEvent}!TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorText@{TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorText}}
+\doxysubsubsection{\texorpdfstring{GetSequenceEvent()}{GetSequenceEvent()}}
+{\footnotesize\ttfamily Sequence\+Event TMP\+\_\+\+DOTween\+Tag\+Animator.\+Core.\+TMP\+\_\+\+Tag\+Animator\+Text.\+Get\+Sequence\+Event (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+シーケンスイベント取得 
+
+\begin{DoxyReturn}{Returns}
+シーケンスイベント
+\end{DoxyReturn}
+\Hypertarget{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_ae5dde7a75c7714d7a224e5d2380ec73e}\label{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_ae5dde7a75c7714d7a224e5d2380ec73e} 
+\index{TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorText@{TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorText}!Play@{Play}}
+\index{Play@{Play}!TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorText@{TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorText}}
+\doxysubsubsection{\texorpdfstring{Play()}{Play()}}
+{\footnotesize\ttfamily void TMP\+\_\+\+DOTween\+Tag\+Animator.\+Core.\+TMP\+\_\+\+Tag\+Animator\+Text.\+Play (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+アニメーション開始 
+
+
+
+Definition at line \mbox{\hyperlink{_t_m_p___tag_animator_text_8cs_source_l00067}{67}} of file \mbox{\hyperlink{_t_m_p___tag_animator_text_8cs_source}{TMP\+\_\+\+Tag\+Animator\+Text.\+cs}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_ae5dde7a75c7714d7a224e5d2380ec73e_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_a482af0b52ef261f9f016441b5840703c}\label{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_a482af0b52ef261f9f016441b5840703c} 
+\index{TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorText@{TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorText}!Start@{Start}}
+\index{Start@{Start}!TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorText@{TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorText}}
+\doxysubsubsection{\texorpdfstring{Start()}{Start()}}
+{\footnotesize\ttfamily void TMP\+\_\+\+DOTween\+Tag\+Animator.\+Core.\+TMP\+\_\+\+Tag\+Animator\+Text.\+Start (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Definition at line \mbox{\hyperlink{_t_m_p___tag_animator_text_8cs_source_l00058}{58}} of file \mbox{\hyperlink{_t_m_p___tag_animator_text_8cs_source}{TMP\+\_\+\+Tag\+Animator\+Text.\+cs}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_a482af0b52ef261f9f016441b5840703c_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_ab30bf6d442a81046096ee4bebca54dba}\label{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_ab30bf6d442a81046096ee4bebca54dba} 
+\index{TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorText@{TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorText}!animator@{animator}}
+\index{animator@{animator}!TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorText@{TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorText}}
+\doxysubsubsection{\texorpdfstring{animator}{animator}}
+{\footnotesize\ttfamily DOTween\+TMPAnimator TMP\+\_\+\+DOTween\+Tag\+Animator.\+Core.\+TMP\+\_\+\+Tag\+Animator\+Text.\+animator\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+文字アニメーション用\+DOTween\+TMPAnimator 
+
+
+
+Definition at line \mbox{\hyperlink{_t_m_p___tag_animator_text_8cs_source_l00044}{44}} of file \mbox{\hyperlink{_t_m_p___tag_animator_text_8cs_source}{TMP\+\_\+\+Tag\+Animator\+Text.\+cs}}.
+
+\Hypertarget{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_a729aa68c6650ef8ac83c7335bc412aab}\label{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_a729aa68c6650ef8ac83c7335bc412aab} 
+\index{TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorText@{TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorText}!isStartAnimationPlay@{isStartAnimationPlay}}
+\index{isStartAnimationPlay@{isStartAnimationPlay}!TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorText@{TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorText}}
+\doxysubsubsection{\texorpdfstring{isStartAnimationPlay}{isStartAnimationPlay}}
+{\footnotesize\ttfamily bool TMP\+\_\+\+DOTween\+Tag\+Animator.\+Core.\+TMP\+\_\+\+Tag\+Animator\+Text.\+is\+Start\+Animation\+Play = false\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+スタートでアニメーションを始めるかどうか 
+
+
+
+Definition at line \mbox{\hyperlink{_t_m_p___tag_animator_text_8cs_source_l00028}{28}} of file \mbox{\hyperlink{_t_m_p___tag_animator_text_8cs_source}{TMP\+\_\+\+Tag\+Animator\+Text.\+cs}}.
+
+\Hypertarget{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_af85430a271251710e0e3ea6a128cbc46}\label{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_af85430a271251710e0e3ea6a128cbc46} 
+\index{TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorText@{TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorText}!sequenceAnimation@{sequenceAnimation}}
+\index{sequenceAnimation@{sequenceAnimation}!TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorText@{TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorText}}
+\doxysubsubsection{\texorpdfstring{sequenceAnimation}{sequenceAnimation}}
+{\footnotesize\ttfamily Sequence\+Animation TMP\+\_\+\+DOTween\+Tag\+Animator.\+Core.\+TMP\+\_\+\+Tag\+Animator\+Text.\+sequence\+Animation\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+シーケンスアニメーション 
+
+
+
+Definition at line \mbox{\hyperlink{_t_m_p___tag_animator_text_8cs_source_l00023}{23}} of file \mbox{\hyperlink{_t_m_p___tag_animator_text_8cs_source}{TMP\+\_\+\+Tag\+Animator\+Text.\+cs}}.
+
+\Hypertarget{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_adad09d7cbf7ad2dcf0ab5a93e45f6fad}\label{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_adad09d7cbf7ad2dcf0ab5a93e45f6fad} 
+\index{TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorText@{TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorText}!text@{text}}
+\index{text@{text}!TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorText@{TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorText}}
+\doxysubsubsection{\texorpdfstring{text}{text}}
+{\footnotesize\ttfamily Text\+Mesh\+Pro\+UGUI TMP\+\_\+\+DOTween\+Tag\+Animator.\+Core.\+TMP\+\_\+\+Tag\+Animator\+Text.\+text\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+タグアニメーションさせる\+TMP\+\_\+\+Text 
+
+
+
+Definition at line \mbox{\hyperlink{_t_m_p___tag_animator_text_8cs_source_l00018}{18}} of file \mbox{\hyperlink{_t_m_p___tag_animator_text_8cs_source}{TMP\+\_\+\+Tag\+Animator\+Text.\+cs}}.
+
+\Hypertarget{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_a5fb01b450ac1000f9996d69ef4af349d}\label{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animator_text_a5fb01b450ac1000f9996d69ef4af349d} 
+\index{TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorText@{TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorText}!tmpTagAnimationDataList@{tmpTagAnimationDataList}}
+\index{tmpTagAnimationDataList@{tmpTagAnimationDataList}!TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorText@{TMP\_DOTweenTagAnimator.Core.TMP\_TagAnimatorText}}
+\doxysubsubsection{\texorpdfstring{tmpTagAnimationDataList}{tmpTagAnimationDataList}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animation_data}{TMP\+\_\+\+Tag\+Animation\+Data}}$>$ TMP\+\_\+\+DOTween\+Tag\+Animator.\+Core.\+TMP\+\_\+\+Tag\+Animator\+Text.\+tmp\+Tag\+Animation\+Data\+List = new List$<$\mbox{\hyperlink{class_t_m_p___d_o_tween_tag_animator_1_1_core_1_1_t_m_p___tag_animation_data}{TMP\+\_\+\+Tag\+Animation\+Data}}$>$()\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+文字アニメーションとその範囲データのリスト 
+
+
+
+Definition at line \mbox{\hyperlink{_t_m_p___tag_animator_text_8cs_source_l00039}{39}} of file \mbox{\hyperlink{_t_m_p___tag_animator_text_8cs_source}{TMP\+\_\+\+Tag\+Animator\+Text.\+cs}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/git/\+TMP\+\_\+\+DOTween\+Template/\+DOTween\+Template/\+Assets/\+TMP\+\_\+\+DOTween\+Tag\+Animator/\+Scripts/\+Core/\mbox{\hyperlink{_t_m_p___tag_animator_text_8cs}{TMP\+\_\+\+Tag\+Animator\+Text.\+cs}}\end{DoxyCompactItemize}

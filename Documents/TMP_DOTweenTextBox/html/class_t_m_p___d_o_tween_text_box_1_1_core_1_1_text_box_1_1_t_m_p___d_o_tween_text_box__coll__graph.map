@@ -1,0 +1,25 @@
+<map id="TMP_DOTweenTextBox.Core.TextBox.TMP_DOTweenTextBox" name="TMP_DOTweenTextBox.Core.TextBox.TMP_DOTweenTextBox">
+<area shape="rect" id="Node000001" title="TMPテキストボックスクラス" alt="" coords="512,500,716,800"/>
+<area shape="rect" id="Node000002" href="$class_mono_behaviour.html" title=" " alt="" coords="5,324,111,389"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,398,147,437,198,473,278,517,361,556,513,614,511,619,359,560,275,522,195,478,143,441,98,402"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="135,324,256,389"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="198,388,204,432,212,454,224,474,252,503,283,529,352,571,426,602,496,623,495,629,424,607,350,576,280,533,248,507,220,477,207,457,199,433,192,389"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="319,141,357,206"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="328,207,316,248,306,299,306,354,311,380,320,406,354,461,399,509,448,551,499,586,496,590,445,555,395,513,350,464,315,408,306,382,301,354,301,299,311,247,323,205"/>
+<area shape="rect" id="Node000008" href="$class_t_m_p___d_o_tween_text_box_1_1_core_1_1_text_box_1_1_text_box_string_data.html" title="テキストボックス用データクラス" alt="" coords="520,307,708,407"/>
+<area shape="poly" id="edge10_Node000008_Node000004" title=" " alt="" coords="356,205,382,245,400,264,419,280,440,291,458,295,477,298,501,304,505,305,503,310,500,309,476,303,457,301,438,296,416,285,396,268,378,248,352,208"/>
+<area shape="rect" id="Node000005" href="$class_t_m_p___d_o_tween_text_box_1_1_core_1_1_text_box_1_1_text_box_events.html" title="テキストボックス用のイベントデータ" alt="" coords="732,317,920,397"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="811,398,766,477,729,526,725,523,761,474,806,395"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="731,5,807,71"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="765,71,757,137,758,175,763,213,777,258,797,300,792,303,772,260,757,214,752,176,752,137,760,70"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="890,134,1010,214"/>
+<area shape="poly" id="edge7_Node000007_Node000006" title=" " alt="" coords="820,74,899,132,896,136,817,78"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="926,215,864,305,860,302,922,212"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="617,407,617,483,611,483,611,407"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="563,141,665,206"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="617,206,617,290,611,290,611,206"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="944,324,983,389"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="951,391,925,434,891,477,854,511,813,541,732,593,729,588,810,537,850,507,887,474,921,431,946,388"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="1069,324,1095,389"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="1078,390,1063,434,1051,457,1035,478,1002,507,966,532,888,575,808,606,734,628,732,623,806,601,885,570,963,528,998,502,1031,474,1046,454,1058,432,1073,388"/>
+</map>

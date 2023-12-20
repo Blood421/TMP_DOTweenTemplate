@@ -1,0 +1,7 @@
+<map id="TMP_DOTweenTemplate.Simple.Pro.TMP_CharRotateAnimator.Play" name="TMP_DOTweenTemplate.Simple.Pro.TMP_CharRotateAnimator.Play">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,236,46"/>
+<area shape="rect" id="Node000002" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_char_animation_base.html#ad5d056ca1bdb666301cbce54d0e87351" title="アニメーションのシーケンスを取得" alt="" coords="284,5,542,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="236,23,268,23,268,28,236,28"/>
+<area shape="rect" id="Node000003" href="$class_t_m_p___d_o_tween_template_1_1_core_1_1_base_1_1_animation_base.html#a5cfb905cae06ea6fc613f3012123dff8" title="シーケンスを作る" alt="" coords="590,5,837,46"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="542,23,574,23,574,28,542,28"/>
+</map>

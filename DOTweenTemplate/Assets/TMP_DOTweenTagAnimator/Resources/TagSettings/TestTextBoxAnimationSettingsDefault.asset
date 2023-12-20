@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eea9418f7c244088b956cfa788588b3e, type: 3}
+  m_Name: TestTextBoxAnimationSettingsDefault
+  m_EditorClassIdentifier: 
+  beginTagName: Default
+  endTagName: Default
+  tmpCharMoveAnimationBefore:
+    additional:
+      curveEase:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      useCurveEase: 0
+      delay: 0
+      loop: 0
+      loopType: 0
+      isRelative: 0
+      isFrom: 0
+    duration: 0
+    ease: 0
+    charDelay: 0
+    afterPos: {x: 0, y: -100, z: 0}
+  tmpCharColorAnimationBefore:
+    additional:
+      curveEase:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      useCurveEase: 0
+      delay: 0
+      loop: 0
+      loopType: 0
+      isRelative: 0
+      isFrom: 0
+    duration: 0
+    ease: 0
+    charDelay: 0
+    afterColor: {r: 0, g: 0, b: 0, a: 0}
+  tmpCharMoveAnimationAfter:
+    additional:
+      curveEase:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      useCurveEase: 0
+      delay: 0
+      loop: 0
+      loopType: 0
+      isRelative: 0
+      isFrom: 0
+    duration: 1
+    ease: 15
+    charDelay: 0.1
+    afterPos: {x: 0, y: 0, z: 0}
+  tmpCharColorAnimationAfter:
+    additional:
+      curveEase:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      useCurveEase: 0
+      delay: 0
+      loop: 0
+      loopType: 0
+      isRelative: 0
+      isFrom: 0
+    duration: 1
+    ease: 15
+    charDelay: 0.1
+    afterColor: {r: 0, g: 0, b: 0, a: 1}

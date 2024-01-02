@@ -18,6 +18,7 @@ namespace TMP_DOTweenTextBox.Demo
             //表示データの配列
             TextBoxStringData[] dataArray =
             {
+                //名前(name),文章(contents),表示開始と終了時に通知する文字(Event string)
                 new TextBoxStringData("Name1", "<b>aa</b><Test1>aa</Test1>aa<Test0>aa</Test0><i>aa</i>", "a"),
                 new TextBoxStringData("Name2", "b<Test1>bb</Test1>bb", "b"),
                 new TextBoxStringData("Name3", "cccc", "c"),

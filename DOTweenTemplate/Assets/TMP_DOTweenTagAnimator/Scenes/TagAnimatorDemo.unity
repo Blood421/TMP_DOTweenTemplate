@@ -971,6 +971,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: TMP_TagAnimatorManager
       objectReference: {fileID: 0}
+    - target: {fileID: 9196024505061861302, guid: 339f6fc4d8cf7d146b1f62587a0e4073, type: 3}
+      propertyPath: tmpAnimationSettingsBases.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9196024505061861302, guid: 339f6fc4d8cf7d146b1f62587a0e4073, type: 3}
+      propertyPath: tmpAnimationSettingsBases.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: ee6cd25326d37004aab42e91eda082a2, type: 2}
     - target: {fileID: 9196024505061861303, guid: 339f6fc4d8cf7d146b1f62587a0e4073, type: 3}
       propertyPath: m_RootOrder
       value: 3
